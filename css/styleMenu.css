@@ -1,0 +1,50 @@
+.container--fullPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    border: cadetblue 1px solid;
+    max-width: 1200px;
+}
+.header--fullPage{
+    border: solid 1px red;
+}
+.titre__page{
+    border: royalblue 1px solid;
+}
+.menu{
+    border: teal 1px solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu__header{
+    border: springgreen 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.menu__titre{
+    display: flex;
+    justify-content: center;
+}
+.menu__corps{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.menu__choix{
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+}
+.menu__prix{
+    flex:1;
+}
+.menu__footer{
+    display: flex;
+    justify-content: center;
+    border: steelblue 1px solid;
+}
