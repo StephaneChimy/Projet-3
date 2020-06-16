@@ -1,0 +1,107 @@
+/* Page index */
+
+.container--fullPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    border: cadetblue 1px solid;
+    max-width: 1200px;
+}
+.container__firstLine, .container__secondLine{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.container__secondLine, button{
+    margin-bottom: 50px;
+}
+.container--menu{
+    /* flex:0.4; */
+    /* max-width: 300px; */
+    width: 300px;
+    height: 400px;
+    border: chartreuse 1px solid;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.menu{
+    border: 1px solid brown;
+    text-align: center;
+}
+header{
+    margin-bottom: 50px;
+    border: khaki 1px solid;
+    width: 100%;
+    text-align: center;
+}
+button{
+    border: lightsalmon 1px solid;
+}
+footer{
+    width: 100%;
+    border: lightcoral 1px solid;
+}
+nav{
+    border: olivedrab 1px solid;
+}
+/* Menus */
+.container--fullPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    border: cadetblue 1px solid;
+    max-width: 1200px;
+}
+.header--fullPage{
+    border: solid 1px red;
+}
+.titre__page{
+    border: royalblue 1px solid;
+}
+.menu{
+    border: teal 1px solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu__header{
+    border: springgreen 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.menu__titre{
+    display: flex;
+    justify-content: center;
+}
+.menu__corps{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.menu__choix{
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+}
+.menu__prix{
+    flex:1;
+}
+.menu__footer{
+    display: flex;
+    justify-content: center;
+    border: steelblue 1px solid;
+}
