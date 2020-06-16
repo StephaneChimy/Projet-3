@@ -9,7 +9,7 @@
   max-width: 1200px;
 }
 
-.container__firstLine{
+.container__firstLine, .container__secondLine {
   display: flex;
   flex-direction: row;
   border: 1px solid red;
@@ -19,7 +19,7 @@
   margin-bottom: 50px;
 }
 
-button {
+.container__secondLine, button {
   margin-bottom: 50px;
 }
 
@@ -93,6 +93,7 @@ nav {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  margin-top: 50px;
 }
 
 .menu__titre {
