@@ -9,7 +9,7 @@
   max-width: 1200px;
 }
 
-.container__firstLine, .container__secondLine {
+.container__firstLine{
   display: flex;
   flex-direction: row;
   border: 1px solid red;
@@ -19,7 +19,7 @@
   margin-bottom: 50px;
 }
 
-.container__secondLine, button {
+button {
   margin-bottom: 50px;
 }
 
