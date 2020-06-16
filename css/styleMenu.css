@@ -36,15 +36,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 .menu__titre--ligneGauche, .menu__titre--ligneDroite{
-    max-height: 1em ;
+    max-height: 0.5em ;
     width: 10em;
+}
+.menu__titre--ligneDroite{
+    transform: scaleX(-1);
 }
 .menu__corps{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin-bottom: 50px;
 }
 .menu__choix{
     display: flex;
@@ -53,9 +58,6 @@
 }
 .menu__prix{
     flex:1;
-}
-#desserts{
-    margin-bottom: 50px;
 }
 .menu__footer{
     display: flex;
