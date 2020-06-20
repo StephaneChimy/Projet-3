@@ -8,25 +8,21 @@
   border: cadetblue 1px solid;
   max-width: 1200px;
 }
-
-.header--fullpage {
+.container--fullPage .header--fullPage {
   margin-bottom: 50px;
   border: khaki 1px solid;
   width: 100%;
   text-align: center;
 }
-
-.titre__page {
+.container--fullPage .nomRestaurant {
   border: royalblue 1px solid;
 }
-
-.menu {
+.container--fullPage .menu {
   border: teal 1px solid;
   display: flex;
   flex-direction: column;
 }
-
-.menu__header {
+.container--fullPage .menu .menu__header {
   border: springgreen 1px solid;
   display: flex;
   flex-direction: column;
@@ -34,34 +30,29 @@
   align-items: center;
   margin-top: 50px;
 }
-
-.menu__titre {
+.container--fullPage .menu .menu__titre {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.menu__titre .menu__titre--ligneGauche, .menu__titre .menu__titre--ligneDroite {
+.container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   width: 10em;
   max-height: 1em;
 }
-
-.menu__corps {
+.container--fullPage .menu .menu__corps {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
 }
-
-.menu__choix {
+.container--fullPage .menu .menu__corps .menu__choix {
   display: flex;
   justify-content: space-between;
   flex: 2;
 }
-
-.menu__prix {
+.container--fullPage .menu .menu__corps .menu__choix .menu__prix {
   flex: 1;
 }
-
-.menu__footer {
+.container--fullPage .menu__footer {
   display: flex;
   justify-content: center;
   border: steelblue 1px solid;

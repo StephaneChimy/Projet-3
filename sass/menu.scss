@@ -8,57 +8,71 @@
     border: cadetblue 1px solid;
     max-width: 1200px;
 
+    .header--fullPage{
+        margin-bottom: 50px;
+        border: khaki 1px solid;
+        width: 100%;
+        text-align: center;
+    }
 
-}
-.header--fullpage{
-    margin-bottom: 50px;
-    border: khaki 1px solid;
-    width: 100%;
-    text-align: center;
-}
+    .nomRestaurant{
+        border: royalblue 1px solid;
+    }
 
-.titre__page{
-    border: royalblue 1px solid;
-}
-.menu{
-    border: teal 1px solid;
-    display: flex;
-    flex-direction: column;
-    
-}
-.menu__header{
-    border: springgreen 1px solid;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    margin-top: 50px;
-}
-.menu__titre{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    .menu{
+        border: teal 1px solid;
+        display: flex;
+        flex-direction: column;
 
-    .menu__titre--ligneGauche, .menu__titre--ligneDroite{
-        width: 10em;
-        max-height: 1em;
+        .menu__header{
+            border: springgreen 1px solid;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .menu__titre{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            .menu__titre--ligneGauche, .menu__titre--ligneDroite{
+                width: 10em;
+                max-height: 1em;
+            }
+        }
+
+        .menu__corps{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+            .menu__choix{
+                display: flex;
+                justify-content: space-between;
+                flex: 2;    
+
+                .menu__prix{
+                    flex:1;
+                }
+            }
+        }
+    }
+
+    .menu__footer{
+        display: flex;
+        justify-content: center;
+        border: steelblue 1px solid;
     }
 }
-.menu__corps{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-.menu__choix{
-    display: flex;
-    justify-content: space-between;
-    flex: 2;
-}
-.menu__prix{
-    flex:1;
-}
-.menu__footer{
-    display: flex;
-    justify-content: center;
-    border: steelblue 1px solid;
-}
+
+
+
+
+
+
+
+
+
