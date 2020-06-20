@@ -8,7 +8,13 @@
   border: cadetblue 1px solid;
   max-width: 1200px;
 }
-.container--fullPage .container__firstLine {
+.container--fullPage header {
+  margin-bottom: 50px;
+  border: khaki 1px solid;
+  width: 100%;
+  text-align: center;
+}
+.container--fullPage main {
   display: flex;
   flex-direction: row;
   border: 1px solid red;
@@ -17,10 +23,7 @@
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
-.container--fullPage .container__secondLine, .container--fullPage button {
-  margin-bottom: 50px;
-}
-.container--fullPage .container--menu {
+.container--fullPage main .container--menu {
   /* flex:0.4; */
   /* max-width: 300px; */
   width: 300px;
@@ -33,24 +36,19 @@
   margin-left: 50px;
   margin-right: 50px;
 }
-.container--fullPage .menu {
+.container--fullPage main .container--menu .menu {
   border: 1px solid brown;
   text-align: center;
 }
-.container--fullPage header {
-  margin-bottom: 50px;
-  border: khaki 1px solid;
-  width: 100%;
-  text-align: center;
-}
 .container--fullPage button {
+  margin-bottom: 50px;
   border: lightsalmon 1px solid;
 }
 .container--fullPage footer {
   width: 100%;
   border: lightcoral 1px solid;
 }
-.container--fullPage nav {
+.container--fullPage footer nav {
   border: olivedrab 1px solid;
 }
 
