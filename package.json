@@ -4,7 +4,7 @@
   "description": "Utilisation de Sass pour le projet 3 avec openclassrooms",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sass": "sass --watch ./sass:./css"
   },
   "repository": {
     "type": "git",
