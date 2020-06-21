@@ -1,5 +1,15 @@
 /* Menus */
 /* Variables */
+/* Variables */
+header {
+  margin-bottom: 50px;
+  border: khaki 1px solid;
+  width: 100%;
+  text-align: center;
+  background-color: #579c87;
+  color: #fcca46;
+}
+
 .container--fullPage {
   display: flex;
   flex-direction: column;
@@ -8,14 +18,6 @@
   margin: auto;
   border: cadetblue 1px solid;
   max-width: 800px;
-}
-.container--fullPage .header--fullPage {
-  margin-bottom: 50px;
-  border: khaki 1px solid;
-  width: 100%;
-  text-align: center;
-  background-color: #579c87;
-  color: #fcca46;
 }
 .container--fullPage .nomRestaurant {
   border: royalblue 1px solid;

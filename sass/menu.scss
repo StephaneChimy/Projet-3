@@ -2,6 +2,7 @@
 
 /* Variables */
 @import "./utils/variables";
+@import "./layout/header.scss";
 
 
 .container--fullPage{
@@ -12,15 +13,6 @@
     margin: auto;
     border: cadetblue 1px solid;
     max-width: 800px;
-
-    .header--fullPage{
-        margin-bottom: 50px;
-        border: khaki 1px solid;
-        width: 100%;
-        text-align: center;
-        background-color: $header-background-color;
-        color: $header-title-color;
-    }
 
     .nomRestaurant{
         border: royalblue 1px solid;

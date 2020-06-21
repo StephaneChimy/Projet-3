@@ -1,5 +1,9 @@
 /* Page index */
 
+/* Variables */
+@import "./utils/variables";
+@import "./layout/header.scss";
+
 .container--fullPage{
     display: flex;
     flex-direction: column;
@@ -8,13 +12,6 @@
     margin: auto;
     border: cadetblue 1px solid;
     max-width: 800px;
-
-    header{
-        margin-bottom: 50px;
-        border: khaki 1px solid;
-        width: 100%;
-        text-align: center;
-    }
 
     main{
         display: flex;
