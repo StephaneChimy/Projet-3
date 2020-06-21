@@ -2,6 +2,7 @@
 /* Variables */
 /* Variables */
 header {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 120px;
@@ -11,7 +12,6 @@ header {
   background-color: #579c87;
   color: #fcca46;
   font-size: 25px;
-  display: flex;
 }
 
 /* Variables */

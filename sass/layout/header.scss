@@ -2,10 +2,16 @@
 @import "../utils/variables";
 
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
     margin-bottom: 50px;
     border: khaki 1px solid;
     width: 100%;
-    text-align: center;
     background-color: $header-background-color;
     color: $header-title-color;
+    font-size: 25px;
+    
+
 }

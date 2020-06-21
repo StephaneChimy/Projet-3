@@ -1,11 +1,15 @@
 /* Variables */
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   margin-bottom: 50px;
   border: khaki 1px solid;
   width: 100%;
-  text-align: center;
   background-color: #579c87;
   color: #fcca46;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=header.css.map */
