@@ -1,0 +1,17 @@
+/* Variables */
+.container--button {
+  width: 35%;
+}
+
+button {
+  margin-bottom: 50px;
+  border: lightsalmon 1px solid;
+  width: 100%;
+  height: 2em;
+  border-radius: 10px;
+  background-color: #579c87;
+  color: #fcca46;
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=button.css.map */
