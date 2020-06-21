@@ -54,7 +54,7 @@ button {
   flex-wrap: wrap;
   margin: auto;
   border: cadetblue 1px solid;
-  max-width: 800px;
+  max-width: 900px;
 }
 .container--fullPage main {
   display: flex;
@@ -76,16 +76,12 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
   margin-bottom: 40px;
-<<<<<<< HEAD
-=======
   margin-left: 50px;
   margin-right: 50px;
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
->>>>>>> 84358848d8044bd746dbc9211373752524dd12ac
 }
 .container--fullPage main .container--menu .menu {
   border: 1px solid brown;
