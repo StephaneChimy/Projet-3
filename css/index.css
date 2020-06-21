@@ -2,12 +2,16 @@
 /* Variables */
 /* Variables */
 header {
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   margin-bottom: 50px;
   border: khaki 1px solid;
   width: 100%;
-  text-align: center;
   background-color: #579c87;
   color: #fcca46;
+  font-size: 25px;
+  display: flex;
 }
 
 /* Variables */
@@ -54,13 +58,12 @@ button {
   flex-wrap: wrap;
   margin: auto;
   border: cadetblue 1px solid;
-  max-width: 900px;
+  max-width: 750px;
 }
 .container--fullPage main {
   display: flex;
   flex-direction: row;
   border: 1px solid red;
-  width: 90%;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 50px;
@@ -71,14 +74,14 @@ button {
 .container--fullPage main .container--menu {
   /* flex:0.4; */
   /* max-width: 300px; */
-  width: 300px;
-  height: 400px;
+  width: 270px;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
