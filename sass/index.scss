@@ -23,6 +23,10 @@
         flex-wrap: wrap;
         margin-bottom: 50px;
 
+        a:first-child{
+            background-color: $background-color-menu-1;
+        }
+
         .container--menu{
             /* flex:0.4; */
             /* max-width: 300px; */

@@ -49,6 +49,9 @@ footer nav ul li {
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
+.container--fullPage main a:first-child {
+  background-color: #fcdfdb;
+}
 .container--fullPage main .container--menu {
   /* flex:0.4; */
   /* max-width: 300px; */
