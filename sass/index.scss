@@ -3,6 +3,7 @@
 /* Variables */
 @import "./utils/variables";
 @import "./layout/header.scss";
+@import "./layout/footer.scss";
 
 .container--fullPage{
     display: flex;
@@ -45,28 +46,4 @@
         margin-bottom: 50px;
         border: lightsalmon 1px solid;
     }
-
-    footer{
-        width: 100%;
-        border: lightcoral 1px solid;
-
-        nav{
-            border: olivedrab 1px solid;
-            
-
-            ul{
-                display: flex;
-                justify-content: space-between;
-                padding: 0em;
-
-                li{
-                    list-style-type: none;
-                    margin-left: 1%;
-                    margin-right: 1%;
-                }
-                
-                
-            }
-        }
-    }  
 }
