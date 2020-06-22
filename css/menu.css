@@ -93,6 +93,7 @@ footer nav ul li {
   display: flex;
   justify-content: space-between;
   flex: 2;
+  margin-bottom: 1em;
 }
 .container--fullPage .menu .menu__corps .menu__choix .menu__prix {
   flex: 1;
