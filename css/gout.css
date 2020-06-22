@@ -91,7 +91,7 @@ body {
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   width: 12em;
-  max-height: 2em;
+  max-height: 3em;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   transform: scaleX(-1);
