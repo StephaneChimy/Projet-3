@@ -41,6 +41,10 @@ footer nav ul li {
   font-size: 25px;
 }
 
+body {
+  background-color: #ECECEC;
+}
+
 .container--fullPage {
   display: flex;
   flex-direction: column;
@@ -49,6 +53,7 @@ footer nav ul li {
   margin: auto;
   border: cadetblue 1px solid;
   max-width: 800px;
+  background-color: white;
 }
 .container--fullPage .nomRestaurant {
   border: royalblue 1px solid;

@@ -5,6 +5,10 @@
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
 
+body{
+    background-color: #ECECEC;
+}
+
 .container--fullPage{
     display: flex;
     flex-direction: column;
@@ -13,6 +17,7 @@
     margin: auto;
     border: cadetblue 1px solid;
     max-width: 800px;
+    background-color: white;
 
     .nomRestaurant{
         border: royalblue 1px solid;
