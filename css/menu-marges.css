@@ -54,11 +54,13 @@ footer nav ul li {
   border: royalblue 1px solid;
 }
 .container--fullPage .menu {
+  max-width: 600px;
+  width: 100%;
   border: teal 1px solid;
   display: flex;
   flex-direction: column;
-  padding: 50px;
-  margin: 0px 50px 50px 50px;
+  align-items: center;
+  margin-bottom: 50px;
   background-color: #fcdfdb;
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
@@ -70,24 +72,32 @@ footer nav ul li {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  margin: 50px 0px 50px;
 }
 .container--fullPage .menu .menu__header i {
   font-size: 55px;
 }
 .container--fullPage .menu .menu__titre {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   width: 10em;
   max-height: 1em;
 }
+.container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
+  transform: rotate(180deg);
+}
 .container--fullPage .menu .menu__corps {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex-wrap: nowrap;
   margin-bottom: 50px;
+  width: 80%;
 }
 .container--fullPage .menu .menu__corps .menu__choix {
   display: flex;
@@ -108,4 +118,4 @@ footer nav ul li {
   font-size: 25px;
 }
 
-/*# sourceMappingURL=menu.css.map */
+/*# sourceMappingURL=menu-marges.css.map */

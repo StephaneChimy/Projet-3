@@ -19,11 +19,13 @@
     }
 
     .menu{
+        max-width: 600px;
+        width: 100%;
         border: teal 1px solid;
         display: flex;
         flex-direction: column;
-        padding: 50px;
-        margin: 0px 50px 50px 50px;
+        align-items: center;
+        margin-bottom: 50px;
         background-color: $background-color-menu-1;
         -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
         -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
@@ -35,6 +37,7 @@
             flex-direction: column;
             width: 100%;
             align-items: center;
+            margin: 50px 0px 50px;
 
             i{
                 font-size: 55px;
@@ -43,20 +46,27 @@
 
         .menu__titre{
             display: flex;
+            width: 100%;
             justify-content: space-between;
             align-items: center;
+            text-align: center;
         
             .menu__titre--ligneGauche, .menu__titre--ligneDroite{
                 width: 10em;
                 max-height: 1em;
+            }
+            .menu__titre--ligneDroite{
+                transform: rotate(180deg);
             }
         }
 
         .menu__corps{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             flex-wrap: nowrap;
             margin-bottom: 50px;
+            width: 80%;
 
             .menu__choix{
                 display: flex;
