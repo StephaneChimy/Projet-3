@@ -2,6 +2,7 @@
 
 /* Variables */
 @import "./utils/variables";
+@import "./utils/mixins";
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
 @import "./composants/button.scss";
@@ -45,7 +46,7 @@ body{
             text-decoration: none;
 
             &:nth-child(1){
-                background-color: $background-color-menu-1;
+                @include backgroundMenu;
 
                 i{
                     font-size: 35px;
