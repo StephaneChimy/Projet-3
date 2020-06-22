@@ -6,6 +6,10 @@
 @import "./layout/footer.scss";
 @import "./composants/button.scss";
 
+body{
+    background-color: #ECECEC;
+}
+
 .container--fullPage{
     display: flex;
     flex-direction: column;
@@ -14,6 +18,7 @@
     margin: auto;
     border: cadetblue 1px solid;
     max-width: 750px;
+    background-color: white;
 
     main{
         display: flex;

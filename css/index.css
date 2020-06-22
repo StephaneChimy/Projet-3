@@ -58,6 +58,10 @@ button {
   font-size: 30px;
 }
 
+body {
+  background-color: #ECECEC;
+}
+
 .container--fullPage {
   display: flex;
   flex-direction: column;
@@ -66,6 +70,7 @@ button {
   margin: auto;
   border: cadetblue 1px solid;
   max-width: 750px;
+  background-color: white;
 }
 .container--fullPage main {
   display: flex;
