@@ -94,10 +94,10 @@ button {
 .container--fullPage main .menu:nth-child(1) {
   background-color: #fcdfdb;
 }
-.container--fullPage main .menu i {
+.container--fullPage main .menu:nth-child(1) i {
   font-size: 35px;
 }
-.container--fullPage main .menu p {
+.container--fullPage main .menu:nth-child(1) p {
   font-size: 25px;
   text-transform: uppercase;
 }

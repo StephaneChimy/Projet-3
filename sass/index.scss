@@ -41,14 +41,16 @@
 
             &:nth-child(1){
                 background-color: $background-color-menu-1;
+
+                i{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 25px;
+                    text-transform: uppercase;
+                }
             }
-            i{
-                font-size: 35px;
-            }
-            p{
-                font-size: 25px;
-                text-transform: uppercase;
-            }
+
 
         }
     }
