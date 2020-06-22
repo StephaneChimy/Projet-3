@@ -56,6 +56,9 @@ body{
                     text-transform: uppercase;
                 }
             }
+            &:nth-child(2){
+                @include backgroundMenu($background-color-menu-2)
+            }
 
 
         }
