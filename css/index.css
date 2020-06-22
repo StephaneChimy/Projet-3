@@ -74,15 +74,13 @@ button {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.container--fullPage main a:first-child {
-  background-color: #fcdfdb;
-}
-.container--fullPage main .container--menu {
+.container--fullPage main .menu {
   /* flex:0.4; */
   /* max-width: 300px; */
   width: 270px;
   height: 380px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
@@ -92,9 +90,8 @@ button {
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
 }
-.container--fullPage main .container--menu .menu {
-  border: 1px solid brown;
-  text-align: center;
+.container--fullPage main .menu:nth-child(1) {
+  background-color: #fcdfdb;
 }
 
 /*# sourceMappingURL=index.css.map */
