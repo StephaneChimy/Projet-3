@@ -54,7 +54,6 @@ footer nav ul li {
   border: royalblue 1px solid;
 }
 .container--fullPage .menu {
-  width: 100%;
   border: teal 1px solid;
   display: flex;
   flex-direction: column;
