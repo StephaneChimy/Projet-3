@@ -17,14 +17,12 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    border: cadetblue 1px solid;
     max-width: 750px;
     background-color: white;
 
     main{
         display: flex;
         flex-direction: row;
-        border: 1px solid red;
         justify-content: space-evenly;
         flex-wrap: wrap;
 
