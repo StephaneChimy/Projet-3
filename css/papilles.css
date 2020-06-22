@@ -85,11 +85,11 @@ footer nav ul li {
   text-align: center;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
-  width: 10em;
-  max-height: 1em;
+  width: 12em;
+  max-height: 2em;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
-  transform: rotate(180deg);
+  transform: scaleX(-1);
 }
 .container--fullPage .menu .menu__corps {
   display: flex;

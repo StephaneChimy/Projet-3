@@ -89,7 +89,7 @@ footer nav ul li {
   max-height: 1em;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
-  transform: rotate(180deg);
+  transform: scaleX(-1);
 }
 .container--fullPage .menu .menu__corps {
   display: flex;
