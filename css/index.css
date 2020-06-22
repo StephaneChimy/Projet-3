@@ -109,5 +109,8 @@ body {
 .container--fullPage main .menu:nth-child(2) {
   background-color: #FFF5FE;
 }
+.container--fullPage main .menu:nth-child(3) {
+  background-color: #F9F9F9;
+}
 
 /*# sourceMappingURL=index.css.map */
