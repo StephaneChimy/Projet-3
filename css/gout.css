@@ -28,6 +28,7 @@ footer {
   color: #fcca46;
   display: flex;
   align-items: center;
+  font-family: "Trueno", Arial, Helvetica, sans-serif;
 }
 footer nav {
   width: 100%;

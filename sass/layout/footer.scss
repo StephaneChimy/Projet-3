@@ -1,6 +1,7 @@
 /* Variables */
 
 @import "../utils/variables";
+@import "../utils/mixins";
 
 footer{
     width: 100%;
@@ -9,6 +10,7 @@ footer{
     color: $header-title-color;
     display: flex;
     align-items: center;
+    @include fontstyle("Trueno");
 
     nav{
         width: 100%;
