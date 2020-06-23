@@ -1,3 +1,6 @@
 @mixin backgroundMenu ($colour: $background-color-menu-1) {
     background-color: $colour;
 }
+@mixin fontstyle ($font: Helvetica){
+    font-family: $font, Arial, Helvetica, sans-serif;
+}

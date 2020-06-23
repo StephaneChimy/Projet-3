@@ -1,5 +1,7 @@
 /* Variables */
 @import "../utils/variables";
+@import "../base/font";
+
 
 header{
     display: flex;
@@ -11,6 +13,8 @@ header{
     background-color: $header-background-color;
     color: $header-title-color;
     font-size: 25px;
+    @include fontstyle("Trueno");
+    letter-spacing: -2px;
     
 
 }

@@ -1,6 +1,11 @@
 /* Menus */
 /* Variables / mixins / layout */
 /* Variables */
+@font-face {
+  font-family: "Trueno";
+  font-style: normal;
+  src: url("../../fonts/Trueno/truenorg.otf");
+}
 header {
   display: flex;
   justify-content: center;
@@ -11,6 +16,8 @@ header {
   background-color: #579c87;
   color: #fcca46;
   font-size: 25px;
+  font-family: "Trueno", Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
 }
 
 /* Variables */
