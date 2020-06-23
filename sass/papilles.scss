@@ -52,13 +52,13 @@ body{
 
         .menu__titre{
             display: flex;
-            width: 100%;
+            width: 95%;
             justify-content: space-between;
-            align-items: center;
+            align-items: baseline;
             text-align: center;
         
             .menu__titre--ligneGauche, .menu__titre--ligneDroite{
-                width: 12em;
+                width: 10em;
                 max-height: 2em;
             }
             .menu__titre--ligneDroite{

@@ -81,13 +81,13 @@ body {
 }
 .container--fullPage .menu .menu__titre {
   display: flex;
-  width: 100%;
+  width: 95%;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
-  width: 12em;
+  width: 10em;
   max-height: 2em;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
