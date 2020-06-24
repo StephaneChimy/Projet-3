@@ -50,8 +50,10 @@ body{
             @include fontstyle('Dancing');
             font-size: 40px;
 
-            i{
-                font-size: 55px;
+            h3{
+            @include textGradient ($base-menu3, $variant1-menu3, $variant2-menu3);
+            font-weight: inherit;
+
             }
         }
 
@@ -62,7 +64,6 @@ body{
             align-items: baseline;
             text-align: center;
             
-        
             .menu__titre--ligneGauche, .menu__titre--ligneDroite{
                 width: 160px;
                 max-height: 10px;

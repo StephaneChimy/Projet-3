@@ -1,17 +1,65 @@
-/* Error: Undefined mixin.
- *    ,
- * 16 |     @include fontstyle("Trueno");
- *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   sass/layout/header.scss 16:5  root stylesheet */
+/* Variables */
+/* Header */
+/*Background menus */
+/* Menus font colors */
+/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
+/* hsl(90.5, 96.7%, 76.1%) */
+/** 2 variables par menu **/
+/* 1 Variable du menu 1 (les icons) */
+/* Variables du menu 2 */
+/* Variables du menu 3 */
+/* Variables du menu 4 */
+/* @function colorVarient($color){
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: Undefined mixin.\a    \2577 \a 16 \2502      @include fontstyle("Trueno");\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   sass/layout/header.scss 16:5  root stylesheet';
 }
+ */
+@font-face {
+  font-family: "Trueno";
+  font-style: normal;
+  src: url("../../fonts/Trueno/truenorg.otf");
+}
+@font-face {
+  font-family: "Devonshire";
+  font-style: normal;
+  src: url("../../fonts/Devonshire/Devonshire-Regular.ttf");
+}
+@font-face {
+  font-family: "Flow";
+  font-style: normal;
+  src: url("../../fonts/Flow/flow_b.otf");
+}
+@font-face {
+  font-family: "Croissant";
+  font-style: normal;
+  src: url("../../fonts/Croissant/CroissantOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Dancing";
+  font-style: normal;
+  src: url("../../fonts/Dancing/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Segoe";
+  font-style: normal;
+  src: url("../../fonts/Segoe/segoepr.ttf");
+}
+@font-face {
+  font-family: "Kaushan";
+  font-style: normal;
+  src: url("../../fonts/Kaushan/kaushanscript-regular.ttf");
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 50px;
+  width: 100%;
+  background-color: #579c87;
+  color: #fcca46;
+  font-size: 25px;
+  font-family: "Trueno", Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+}
+
+/*# sourceMappingURL=header.css.map */

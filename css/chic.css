@@ -4,7 +4,12 @@
 /*Background menus */
 /* Menus font colors */
 /* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
-/* 2 variables par menu */
+/* hsl(90.5, 96.7%, 76.1%) */
+/** 2 variables par menu **/
+/* 1 Variable du menu 1 (les icons) */
+/* Variables du menu 2 */
+/* Variables du menu 3 */
+/* Variables du menu 4 */
 /* @function colorVarient($color){
 
 }
@@ -14,7 +19,12 @@
 /*Background menus */
 /* Menus font colors */
 /* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
-/* 2 variables par menu */
+/* hsl(90.5, 96.7%, 76.1%) */
+/** 2 variables par menu **/
+/* 1 Variable du menu 1 (les icons) */
+/* Variables du menu 2 */
+/* Variables du menu 3 */
+/* Variables du menu 4 */
 /* @function colorVarient($color){
 
 }
@@ -73,7 +83,12 @@ header {
 /*Background menus */
 /* Menus font colors */
 /* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
-/* 2 variables par menu */
+/* hsl(90.5, 96.7%, 76.1%) */
+/** 2 variables par menu **/
+/* 1 Variable du menu 1 (les icons) */
+/* Variables du menu 2 */
+/* Variables du menu 3 */
+/* Variables du menu 4 */
 /* @function colorVarient($color){
 
 }
@@ -164,10 +179,12 @@ body {
 }
 .container--fullPage .menu .menu__header h3 {
   font-size: 30px;
-  background: -webkit-linear-gradient(-75deg, #c8721f, #a26a95, #6c56c6);
+  background: -webkit-linear-gradient(left bottom, #c8721f, #a26a95, #6c56c6);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  padding: 5px;
+  /* Pour ne pas couper la police */
   filter: brightness(1.2);
 }
 .container--fullPage .menu .menu__titre {
