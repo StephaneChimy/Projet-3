@@ -6,6 +6,36 @@
   font-style: normal;
   src: url("../../fonts/Trueno/truenorg.otf");
 }
+@font-face {
+  font-family: "Devonshire";
+  font-style: normal;
+  src: url("../../fonts/Devonshire/Devonshire-Regular.ttf");
+}
+@font-face {
+  font-family: "Flow";
+  font-style: normal;
+  src: url("../../fonts/Flow/flow_b.otf");
+}
+@font-face {
+  font-family: "Croissant";
+  font-style: normal;
+  src: url("../../fonts/Croissant/CroissantOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Dancing";
+  font-style: normal;
+  src: url("../../fonts/Dancing/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Segoe";
+  font-style: normal;
+  src: url("../../fonts/Segoe/segoepr.ttf");
+}
+@font-face {
+  font-family: "Kaushan";
+  font-style: normal;
+  src: url("../../fonts/Kaushan/kaushanscript-regular.ttf");
+}
 header {
   display: flex;
   justify-content: center;
@@ -97,6 +127,8 @@ body {
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   text-decoration: none;
+  color: inherit;
+  /* Due au fait que les menus soient des liens (changment de couleur) */
 }
 .container--fullPage main .menu:nth-child(1) {
   background-color: #fcdfdb;
@@ -104,18 +136,44 @@ body {
 .container--fullPage main .menu:nth-child(1) i {
   font-size: 35px;
 }
+.container--fullPage main .menu:nth-child(1) h3 {
+  font-family: "Devonshire", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
 .container--fullPage main .menu:nth-child(1) p {
+  font-family: "Flow", Arial, Helvetica, sans-serif;
   font-size: 25px;
   text-transform: uppercase;
 }
 .container--fullPage main .menu:nth-child(2) {
   background-color: #FFF5FE;
 }
+.container--fullPage main .menu:nth-child(2) h3 {
+  font-family: "Croissant", Arial, Helvetica, sans-serif;
+}
+.container--fullPage main .menu:nth-child(2) p {
+  font-size: 25px;
+  font-weight: bolder;
+}
 .container--fullPage main .menu:nth-child(3) {
   background-color: #F9F9F9;
 }
+.container--fullPage main .menu:nth-child(3) h3 {
+  font-family: "Dancing", Arial, Helvetica, sans-serif;
+}
+.container--fullPage main .menu:nth-child(3) p {
+  font-family: "Segoe", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
 .container--fullPage main .menu:nth-child(4) {
   background-color: #FDFFFD;
+}
+.container--fullPage main .menu:nth-child(4) h3 {
+  font-family: "Kaushan", Arial, Helvetica, sans-serif;
+}
+.container--fullPage main .menu:nth-child(4) p {
+  font-family: "Segoe", Arial, Helvetica, sans-serif;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */
