@@ -105,6 +105,8 @@ body {
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   background-color: #FDFFFD;
+  font-family: "Segoe", Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
 }
 .container--fullPage .menu .menu__header {
   border: springgreen 1px solid;
@@ -113,6 +115,8 @@ body {
   width: 100%;
   align-items: center;
   margin: 50px 0px 50px;
+  font-family: "kaushan", Arial, Helvetica, sans-serif;
+  font-size: 50px;
 }
 .container--fullPage .menu .menu__header i {
   font-size: 55px;
@@ -125,8 +129,8 @@ body {
   text-align: center;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
-  width: 13em;
-  max-height: 3em;
+  width: 200px;
+  max-height: 50px;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche {
   transform: scaleX(-1);

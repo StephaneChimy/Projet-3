@@ -36,6 +36,9 @@ body{
         -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
         box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
         @include backgroundMenu($background-color-menu-3);
+        @include fontstyle ('Segoe');
+        font-size: 0.8em;
+        
 
         .menu__header{
             border: springgreen 1px solid;
@@ -44,6 +47,8 @@ body{
             width: 100%;
             align-items: center;
             margin: 50px 0px 50px;
+            @include fontstyle('Dancing');
+            font-size: 40px;
 
             i{
                 font-size: 55px;
@@ -56,10 +61,11 @@ body{
             justify-content: space-between;
             align-items: baseline;
             text-align: center;
+            
         
             .menu__titre--ligneGauche, .menu__titre--ligneDroite{
-                width: 10em;
-                max-height: 2em;
+                width: 160px;
+                max-height: 10px;
             }
             .menu__titre--ligneDroite{
                 transform: scaleX(-1);
