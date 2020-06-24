@@ -39,6 +39,21 @@ body{
         letter-spacing: 0.5px;
         color: $base-menu2;
 
+        .menu__titre:nth-child(4){
+            
+            color: $variant1-menu2;
+        }
+        .menu__corps:nth-child(5){
+            color: $variant1-menu2;
+        }
+        .menu__titre:nth-child(6){
+                
+            color: $variant2-menu2;
+        }
+        .menu__corps:nth-child(7){
+                
+            color: $variant2-menu2;
+        }
 
         .menu__header{
             border: springgreen 1px solid;
@@ -48,8 +63,7 @@ body{
             align-items: center;
             margin: 50px 0px 50px;
             @include fontstyle('Croissant');
-            @include textGradient (blue, red, yellow);
-            color:$varient1-menu1;
+            
                 
             
             i{
@@ -57,6 +71,7 @@ body{
             }
             h3{
                 font-size: 30px;
+                @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
             }
         }
 
@@ -75,6 +90,11 @@ body{
                 transform: scaleX(-1);
             }
         }
+
+
+        /* .menu__titre:nth-child(6), .menu__titre:nth-child(7){
+            color: $variant2-menu2;
+        } */
 
         .menu__corps{
             display: flex;

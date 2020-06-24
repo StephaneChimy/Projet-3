@@ -12,9 +12,9 @@
     filter: hue-rotate(90deg);
 }
 @mixin textGradient ($color1, $color2, $color3){
-    background: linear-gradient(135deg,$color1,$color2, $color3);
+    background: -webkit-linear-gradient(-75deg,$color1,$color2, $color3);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    
+    filter: brightness(1.2);
 }

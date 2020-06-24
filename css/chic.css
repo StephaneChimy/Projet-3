@@ -3,6 +3,7 @@
 /* Header */
 /*Background menus */
 /* Menus font colors */
+/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
 /* 2 variables par menu */
 /* @function colorVarient($color){
 
@@ -12,6 +13,7 @@
 /* Header */
 /*Background menus */
 /* Menus font colors */
+/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
 /* 2 variables par menu */
 /* @function colorVarient($color){
 
@@ -70,6 +72,7 @@ header {
 /* Header */
 /*Background menus */
 /* Menus font colors */
+/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
 /* 2 variables par menu */
 /* @function colorVarient($color){
 
@@ -131,6 +134,21 @@ body {
   background-color: #FFF5FE;
   letter-spacing: 0.5px;
   color: #c8721f;
+  /* .menu__titre:nth-child(6), .menu__titre:nth-child(7){
+      color: $variant2-menu2;
+  } */
+}
+.container--fullPage .menu .menu__titre:nth-child(4) {
+  color: #a26a95;
+}
+.container--fullPage .menu .menu__corps:nth-child(5) {
+  color: #a26a95;
+}
+.container--fullPage .menu .menu__titre:nth-child(6) {
+  color: #6c56c6;
+}
+.container--fullPage .menu .menu__corps:nth-child(7) {
+  color: #6c56c6;
 }
 .container--fullPage .menu .menu__header {
   border: springgreen 1px solid;
@@ -140,17 +158,17 @@ body {
   align-items: center;
   margin: 50px 0px 50px;
   font-family: "Croissant", Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg, blue, red, yellow);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  color: #7f56f2;
 }
 .container--fullPage .menu .menu__header i {
   font-size: 55px;
 }
 .container--fullPage .menu .menu__header h3 {
   font-size: 30px;
+  background: -webkit-linear-gradient(-75deg, #c8721f, #a26a95, #6c56c6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: brightness(1.2);
 }
 .container--fullPage .menu .menu__titre {
   display: flex;
