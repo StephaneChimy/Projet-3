@@ -16,19 +16,16 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    border: cadetblue 1px solid;
     max-width: 800px;
     background-color: white;
 
     .nomRestaurant{
-        border: royalblue 1px solid;
         font-size: 15px;
     }
 
     .menu{
         max-width: 500px;
         width: 100%;
-        border: teal 1px solid;
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
@@ -42,7 +39,6 @@ body{
         font-size: 0.8em;
 
         .menu__header{
-            border: springgreen 1px solid;
             display: flex;
             flex-direction: column;
             width: 100%;
@@ -50,6 +46,7 @@ body{
 
             i{
                 font-size: 55px;
+                @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
             }
             h3{
                 @include fontstyle ('Devonshire');
@@ -99,6 +96,7 @@ body{
             i{
                 margin-right: 5px;
                 font-size: 25px;
+                @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
             }
             h4{
                 @include fontstyle ('Devonshire');

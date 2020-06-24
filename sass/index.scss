@@ -50,6 +50,7 @@ body{
 
                 i{
                     font-size: 35px;
+                    @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
                 }
                 h3{
                     @include fontstyle ("Devonshire");
@@ -66,10 +67,12 @@ body{
                 
                 h3{
                     @include fontstyle ("Croissant");
+                    @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
                 }
                 p{
                     font-size: 25px;
                     font-weight: bolder;
+                    color:$base-menu2;
                 }
             }
             &:nth-child(3){
@@ -77,10 +80,12 @@ body{
 
                 h3{
                     @include fontstyle ("Dancing");
+                    @include textGradient ($base-menu3, $variant1-menu3, $variant2-menu3);
                 }
                 p{
                     @include fontstyle ("Segoe");
                     font-size: 25px;
+                    color: $base-menu3;
                 }
             }
             &:nth-child(4){
@@ -88,10 +93,13 @@ body{
 
                 h3{
                     @include fontstyle ("Kaushan");
+                @include textGradient ($base-menu4, $base-menu4, $variant1-menu4);
+
                 }
                 p{
                     @include fontstyle ("Segoe");
                     font-size: 25px;
+                    color: $base-menu4;
                 }
             }
 

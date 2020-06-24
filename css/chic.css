@@ -3,6 +3,7 @@
 /* Header */
 /*Background menus */
 /* Menus font colors */
+/* hsl(14.3, 91.1%, 69.2%) */
 /* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
 /* hsl(90.5, 96.7%, 76.1%) */
 /** 2 variables par menu **/
@@ -18,6 +19,7 @@
 /* Header */
 /*Background menus */
 /* Menus font colors */
+/* hsl(14.3, 91.1%, 69.2%) */
 /* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
 /* hsl(90.5, 96.7%, 76.1%) */
 /** 2 variables par menu **/
@@ -82,6 +84,7 @@ header {
 /* Header */
 /*Background menus */
 /* Menus font colors */
+/* hsl(14.3, 91.1%, 69.2%) */
 /* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
 /* hsl(90.5, 96.7%, 76.1%) */
 /** 2 variables par menu **/
@@ -128,17 +131,12 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  border: cadetblue 1px solid;
   max-width: 800px;
   background-color: white;
-}
-.container--fullPage .nomRestaurant {
-  border: royalblue 1px solid;
 }
 .container--fullPage .menu {
   max-width: 600px;
   width: 100%;
-  border: teal 1px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,7 +164,6 @@ body {
   color: #6c56c6;
 }
 .container--fullPage .menu .menu__header {
-  border: springgreen 1px solid;
   display: flex;
   flex-direction: column;
   width: 100%;
