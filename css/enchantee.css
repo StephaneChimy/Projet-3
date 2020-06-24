@@ -92,6 +92,7 @@ body {
 }
 .container--fullPage .nomRestaurant {
   border: royalblue 1px solid;
+  font-size: 15px;
 }
 .container--fullPage .menu {
   max-width: 500px;
@@ -105,6 +106,9 @@ body {
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+  /* font */
+  font-family: "Segoe", Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
 }
 .container--fullPage .menu .menu__header {
   border: springgreen 1px solid;
@@ -116,15 +120,21 @@ body {
 .container--fullPage .menu .menu__header i {
   font-size: 55px;
 }
+.container--fullPage .menu .menu__header h3 {
+  font-family: "Devonshire", Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+  font-size: 35px;
+}
 .container--fullPage .menu .menu__titre {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  font-size: 20px;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
-  width: 10em;
-  max-height: 1em;
+  width: 150px;
+  max-height: 15px;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   transform: scaleX(-1);
@@ -151,6 +161,11 @@ body {
 }
 .container--fullPage .menu .menu__footer i {
   margin-right: 5px;
+  font-size: 25px;
+}
+.container--fullPage .menu .menu__footer h4 {
+  font-family: "Devonshire", Arial, Helvetica, sans-serif;
+  font-weight: inherit;
   font-size: 25px;
 }
 
