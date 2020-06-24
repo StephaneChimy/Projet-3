@@ -1,6 +1,22 @@
 /* Menus */
 /* Variables / mixins / layout */
+/* Header */
+/*Background menus */
+/* Menus font colors */
+/* 2 variables par menu */
+/* @function colorVarient($color){
+
+}
+ */
 /* Variables */
+/* Header */
+/*Background menus */
+/* Menus font colors */
+/* 2 variables par menu */
+/* @function colorVarient($color){
+
+}
+ */
 @font-face {
   font-family: "Trueno";
   font-style: normal;
@@ -51,6 +67,14 @@ header {
 }
 
 /* Variables */
+/* Header */
+/*Background menus */
+/* Menus font colors */
+/* 2 variables par menu */
+/* @function colorVarient($color){
+
+}
+ */
 footer {
   width: 100%;
   height: 70px;
@@ -106,6 +130,7 @@ body {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   background-color: #FFF5FE;
   letter-spacing: 0.5px;
+  color: #c8721f;
 }
 .container--fullPage .menu .menu__header {
   border: springgreen 1px solid;
@@ -115,6 +140,11 @@ body {
   align-items: center;
   margin: 50px 0px 50px;
   font-family: "Croissant", Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, blue, red, yellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  color: #7f56f2;
 }
 .container--fullPage .menu .menu__header i {
   font-size: 55px;

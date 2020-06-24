@@ -1,6 +1,29 @@
+@use 'sass:color';
+
+/* Header */
 $header-background-color: #579c87;
 $header-title-color: #fcca46;
+
+/*Background menus */
 $background-color-menu-1: #fcdfdb;
 $background-color-menu-2: #FFF5FE;
 $background-color-menu-3: #F9F9F9;
 $background-color-menu-4: #FDFFFD;
+
+/* Menus font colors */
+
+$base-menu1: hsl(355.8, 85.7%, 64.3%);
+$base-menu2: hsl(29.5, 73.2%, 45.3%);
+$base-menu3: hsl(206.0, 100.0%, 48.4%);
+$base-menu4: hsl(105.5, 41.9%, 55.5%);
+
+/* 2 variables par menu */
+
+$varient1-menu1: change-color($base-menu1, $hue: hue($base-menu1) + 260);
+$varient2-menu1: change-color(#c7721f, $hue: hue($base-menu1) + 50);
+
+
+/* @function colorVarient($color){
+    
+}
+ */
