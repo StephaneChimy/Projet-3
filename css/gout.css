@@ -178,10 +178,10 @@ body {
   text-align: center;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
-  width: 200px;
-  max-height: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-.container--fullPage .menu .menu__titre .menu__titre--ligneGauche {
+.container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   transform: scaleX(-1);
 }
 .container--fullPage .menu .menu__corps {
