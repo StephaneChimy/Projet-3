@@ -190,10 +190,10 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-}
-.container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
-  width: 10em;
-  max-height: 1em;
+  /*             .menu__titre--ligneGauche, .menu__titre--ligneDroite{
+                  width: 10em;
+                  max-height: 1em;
+              } */
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   transform: scaleX(-1);
