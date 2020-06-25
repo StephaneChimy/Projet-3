@@ -6,11 +6,11 @@
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
 
-body{
+body {
     background-color: #ECECEC;
 }
 
-.container--fullPage{
+.container--fullPage {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,77 +19,81 @@ body{
     max-width: 800px;
     background-color: white;
 
-    .menu{
+    .menu {
         max-width: 600px;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
-        -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
-        -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
-        box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
         @include backgroundMenu($background-color-menu-2);
         letter-spacing: 0.5px;
         color: $base-menu2;
+        fill: $base-menu2;
 
-        .menu__titre:nth-child(4){
-            
+        .menu__titre:nth-child(4) {
+
             color: $variant1-menu2;
-        }
-        .menu__corps:nth-child(5){
-            color: $variant1-menu2;
-        }
-        .menu__titre:nth-child(6){
-                
-            color: $variant2-menu2;
-        }
-        .menu__corps:nth-child(7){
-                
-            color: $variant2-menu2;
+            fill: $variant1-menu2;
         }
 
-        .menu__header{
+        .menu__corps:nth-child(5) {
+            color: $variant1-menu2;
+        }
+
+        .menu__titre:nth-child(6) {
+
+            color: $variant2-menu2;
+            fill: $variant2-menu2;
+        }
+
+        .menu__corps:nth-child(7) {
+
+            color: $variant2-menu2;
+        }
+
+        .menu__header {
             display: flex;
             flex-direction: column;
             width: 100%;
             align-items: center;
             margin: 50px 0px 50px;
             @include fontstyle('Croissant');
-            
-                
-            
-            i{
+
+            i {
                 font-size: 55px;
             }
-            h3{
+
+            h3 {
                 font-size: 30px;
                 @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
             }
         }
 
-        .menu__titre{
+        .menu__titre {
             display: flex;
             width: 100%;
             justify-content: space-between;
             align-items: center;
             text-align: center;
-        
-/*             .menu__titre--ligneGauche, .menu__titre--ligneDroite{
+
+            /* .menu__titre--ligneGauche, .menu__titre--ligneDroite{
                 width: 10em;
                 max-height: 1em;
             } */
-            .menu__titre--ligneDroite{
+            .menu__titre--ligneDroite {
                 transform: scaleX(-1);
             }
         }
-
 
         /* .menu__titre:nth-child(6), .menu__titre:nth-child(7){
             color: $variant2-menu2;
         } */
 
-        .menu__corps{
+        .menu__corps {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -97,23 +101,24 @@ body{
             margin-bottom: 50px;
             width: 80%;
 
-            .menu__choix{
+            .menu__choix {
                 display: flex;
                 justify-content: space-between;
                 flex: 2;
-                margin-bottom: 1em;  
+                margin-bottom: 1em;
 
-                .menu__prix{
-                    flex:1;
+                .menu__prix {
+                    flex: 1;
                 }
             }
         }
-        .menu__footer{
+
+        .menu__footer {
             display: flex;
             justify-content: center;
             align-items: center;
 
-            i{
+            i {
                 margin-right: 5px;
                 font-size: 25px;
             }
