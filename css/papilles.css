@@ -133,6 +133,8 @@ body {
   margin: auto;
   max-width: 800px;
   background-color: white;
+  /*     .nomRestaurant{
+      } */
 }
 .container--fullPage .menu {
   max-width: 600px;
