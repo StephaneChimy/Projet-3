@@ -162,7 +162,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  max-width: 750px;
+  max-width: 800px;
   background-color: white;
 }
 .container--fullPage main {
