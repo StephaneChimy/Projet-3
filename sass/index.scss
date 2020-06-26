@@ -32,10 +32,11 @@ body{
             /* max-width: 300px; */
             width: 270px;
             height: 380px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;  
-            align-items: center;
+            /* display: flex;
+            flex-direction: column; */
+            /* justify-content: center;  
+            align-items: center; */
+            text-align: center;
             margin-bottom: 40px;
             margin-left: 5px;
             margin-right: 5px;
@@ -93,6 +94,7 @@ body{
                 h3{
                     @include fontstyle ("Croissant");
                     @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
+                    font-size: 15px;
                 }
                 p{
                     font-size: 25px;
