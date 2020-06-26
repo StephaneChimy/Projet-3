@@ -69,18 +69,14 @@ body{
             .parallelogramme{
                 width: 30%;
                 height: 5px;
-                -webkit-transform: skew(50deg);
-                -moz-transform: skew(50deg);
-                -o-transform: skew(50deg);
+                transform: skew(50deg);
                 background: $base-menu3;
                 margin-right: 1.5%;
               }
               .parallelogramme2{
                 width: 30%;
                 height: 5px;
-                -webkit-transform: skew(-50deg);
-                -moz-transform: skew(-50deg);
-                -o-transform: skew(-50deg);
+                transform: skew(-50deg);
                 background: $base-menu3;
                 margin-right: 1.5%;
               }
@@ -111,7 +107,7 @@ body{
                 }
             }
         }
-        
+
         .menu__footer{
             display: flex;
             justify-content: center;
