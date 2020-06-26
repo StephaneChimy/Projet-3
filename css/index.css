@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Page index */
 /* Variables */
 /* Header */
@@ -185,12 +186,33 @@ body {
   margin-bottom: 40px;
   margin-left: 5px;
   margin-right: 5px;
+  /* Ombres sous les menus */
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+  /* Due au fait que les menus soient des liens (changment de couleur) */
   text-decoration: none;
   color: inherit;
-  /* Due au fait que les menus soient des liens (changment de couleur) */
+  /* Zoom */
+  transition: 0.4s;
+  overflow: hidden;
+  /* Pour ne pas dépasser du cadre */
+  /* Zoom */
+}
+.container--fullPage main .menu .zoom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* Zoom */
+  transition: 0.4s;
+}
+.container--fullPage main .menu .zoom:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.3);
 }
 .container--fullPage main .menu:nth-child(1) {
   background-color: #fcdfdb;
