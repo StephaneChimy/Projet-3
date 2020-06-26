@@ -147,6 +147,21 @@ body {
   background-color: #FDFFFD;
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   font-size: 0.8em;
+  /* .menu__titre:nth-child(2) {
+      fill: $base-menu4;
+  }
+  .menu__titre:nth-child(4) {
+      fill: $variant1-menu4;
+  }
+  .menu__titre:nth-child(6) {
+      fill: $variant1-menu4;
+  } */
+}
+.container--fullPage .menu .svg--stop1 {
+  stop-color: #53a14b;
+}
+.container--fullPage .menu .svg--stop2 {
+  stop-color: #c1fd88;
 }
 .container--fullPage .menu .menu__header {
   display: flex;
