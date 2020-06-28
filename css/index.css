@@ -348,5 +348,9 @@ body {
   font-size: 25px;
   color: #53a14b;
 }
+.container--fullPage footer a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /*# sourceMappingURL=index.css.map */
