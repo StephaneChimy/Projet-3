@@ -93,7 +93,7 @@ footer {
   display: flex;
   align-items: center;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
-  /* position: sticky; */
+  position: sticky;
   bottom: 0;
 }
 footer nav {
