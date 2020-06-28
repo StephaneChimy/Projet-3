@@ -1,15 +1,6 @@
 /* Variables */
 @import "../utils/variables";
 
-/* @keyframes bounce {
-    0% { transform: translateY(0px) scaleX(0) ; }
-    5% { transform: translateY(0px) scaleX(2) scaleY(-1) ;}
-    10% { transform: translateY(0px) scaleX(0)  ;}
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0px); }
-} */
-
-
 .container--button{
     width: 40%;
     min-width: 225px;
@@ -32,9 +23,9 @@ button{
             100% { transform:  translateY(0px) scaleX(1) scaleY(1) ;}
         }
         i:nth-child(1){
-        animation: bounce 0.5s;
-        /* Fait touner l'animation indéfiniment */
-        animation-iteration-count: infinite;
+            animation: bounce 0.5s;
+            /* Fait touner l'animation indéfiniment */
+            animation-iteration-count: infinite;
         }
         i:nth-child(2){
             animation: bounce 0.5s;
@@ -55,5 +46,4 @@ button{
         margin-left: 2px;
         margin-right: 2px;
     }
-    /* <i class="fas fa-circle"> */
 }
