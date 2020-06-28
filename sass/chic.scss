@@ -39,22 +39,18 @@ body {
             color: $variant1-menu2;
             fill: $variant1-menu2;
         }
-
         .menu__corps:nth-child(5) {
             color: $variant1-menu2;
         }
-
         .menu__titre:nth-child(6) {
 
             color: $variant2-menu2;
             fill: $variant2-menu2;
         }
-
         .menu__corps:nth-child(7) {
 
             color: $variant2-menu2;
         }
-
         .menu__header {
             display: flex;
             flex-direction: column;
@@ -72,7 +68,6 @@ body {
                 @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
             }
         }
-
         .menu__titre {
             display: flex;
             width: 100%;
@@ -83,7 +78,6 @@ body {
             h5{
                 font-size: 20px;
             }
-
             /* Animation de souligner */
             &:nth-child(2) h5::after{
                 content: '';
@@ -109,12 +103,10 @@ body {
                 background: $variant2-menu2;
                 transition: width .3s;
             }
-
             /* Le background du pseudo élément prend une taille de 100% */
             & h5:hover::after {
                 width: 100%;
             }
-
             /* .menu__titre--ligneGauche, .menu__titre--ligneDroite{
                 width: 10em;
                 max-height: 1em;
@@ -123,11 +115,6 @@ body {
                 transform: scaleX(-1);
             }
         }
-
-        /* .menu__titre:nth-child(6), .menu__titre:nth-child(7){
-            color: $variant2-menu2;
-        } */
-
         .menu__corps {
             display: flex;
             flex-direction: column;
@@ -147,7 +134,6 @@ body {
                 }
             }
         }
-
         .menu__footer {
             display: flex;
             justify-content: center;

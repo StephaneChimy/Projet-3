@@ -9,7 +9,6 @@
 body{
     background-color: #ECECEC;
 }
-
 .container--fullPage{
     display: flex;
     flex-direction: column;
@@ -39,7 +38,6 @@ body{
         .svg--stop2{
             stop-color: $variant1-menu4;
         }
-
         /* .menu__titre:nth-child(2) {
             fill: $base-menu4;
         }
@@ -49,7 +47,6 @@ body{
         .menu__titre:nth-child(6) {
             fill: $variant1-menu4;
         } */
-
         .menu__header{
             display: flex;
             flex-direction: column;
@@ -67,7 +64,6 @@ body{
                 font-weight: inherit;
             }
         }
-
         .menu__titre{
             display: flex;
             width: 100%;
@@ -87,12 +83,10 @@ body{
                 background: black;
                 transition: width .3s;
             }
-
             /* Le background du pseudo élément prend une taille de 100% */
             & h5:hover::after {
                 width: 100%;
             }
-        
             .menu__titre--ligneGauche, .menu__titre--ligneDroite{
                 margin-left: 15px;
                 margin-right: 15px;
@@ -101,7 +95,6 @@ body{
                 transform: scaleX(-1);
             }
         }
-
         .menu__corps{
             display: flex;
             flex-direction: column;

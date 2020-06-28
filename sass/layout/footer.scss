@@ -28,6 +28,7 @@ footer{
                 margin-left: 2%;
                 margin-right: 2%;
                 font-size: 25px;
+
                 /* Détails de l'animation */
                 @keyframes shake {
                     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -42,6 +43,7 @@ footer{
                     90% { transform: translate(1px, 2px) rotate(0deg); }
                     100% { transform: translate(1px, -2px) rotate(-1deg); }
                 }
+                
                 &:hover{
                 /* démarre l'animation shake et dure 0.5 secondes */
                 animation: shake 0.5s;

@@ -12,10 +12,6 @@
 /* Variables du menu 2 */
 /* Variables du menu 3 */
 /* Variables du menu 4 */
-/* @function colorVarient($color){
-
-}
- */
 /* Variables */
 /* Header */
 /*Background menus */
@@ -28,10 +24,6 @@
 /* Variables du menu 2 */
 /* Variables du menu 3 */
 /* Variables du menu 4 */
-/* @function colorVarient($color){
-
-}
- */
 @font-face {
   font-family: "Trueno";
   font-style: normal;
@@ -93,10 +85,6 @@ header {
 /* Variables du menu 2 */
 /* Variables du menu 3 */
 /* Variables du menu 4 */
-/* @function colorVarient($color){
-
-}
- */
 footer {
   width: 100%;
   height: 70px;
@@ -196,9 +184,6 @@ body {
   /* font */
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   font-size: 0.8em;
-  /*  svg:nth-child(1){
-      fill:$variant1-menu1;
-  } */
 }
 .container--fullPage .menu .menu__header {
   display: flex;

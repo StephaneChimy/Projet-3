@@ -12,10 +12,6 @@
 /* Variables du menu 2 */
 /* Variables du menu 3 */
 /* Variables du menu 4 */
-/* @function colorVarient($color){
-
-}
- */
 /* Variables */
 /* Header */
 /*Background menus */
@@ -28,10 +24,6 @@
 /* Variables du menu 2 */
 /* Variables du menu 3 */
 /* Variables du menu 4 */
-/* @function colorVarient($color){
-
-}
- */
 @font-face {
   font-family: "Trueno";
   font-style: normal;
@@ -93,10 +85,6 @@ header {
 /* Variables du menu 2 */
 /* Variables du menu 3 */
 /* Variables du menu 4 */
-/* @function colorVarient($color){
-
-}
- */
 footer {
   width: 100%;
   height: 70px;
@@ -193,9 +181,6 @@ body {
   letter-spacing: 0.5px;
   color: #c8721f;
   fill: #c8721f;
-  /* .menu__titre:nth-child(6), .menu__titre:nth-child(7){
-      color: $variant2-menu2;
-  } */
 }
 .container--fullPage .menu .menu__titre:nth-child(4) {
   color: #a26a95;

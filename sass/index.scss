@@ -9,7 +9,6 @@
 
 body{
     background-color: #ECECEC;
-    
 }
 
 .container--fullPage{
@@ -27,7 +26,6 @@ body{
         justify-content: space-evenly;
         flex-wrap: wrap;
         
-
         .menu{
             /* flex:0.4; */
             width: 270px;
@@ -68,9 +66,7 @@ body{
                 opacity: 0.5;
                 background: rgba($color: white, $alpha: 0.3)
             }
-
             
-
             &:nth-child(1){
                 @include backgroundMenu;
 
@@ -129,10 +125,6 @@ body{
                     color: $base-menu4;
                 }
             }
-
-
         }
     }
-
-
 }
