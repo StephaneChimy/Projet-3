@@ -105,7 +105,7 @@ footer {
   display: flex;
   align-items: center;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
-  position: sticky;
+  /* position: sticky; */
   bottom: 0;
 }
 footer nav {
@@ -236,6 +236,22 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  /* Animation de souligner */
+  /* Le background du pseudo élément prend une taille de 100% */
+}
+.container--fullPage .menu .menu__titre h5 {
+  font-size: 15px;
+}
+.container--fullPage .menu .menu__titre h5::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.3s;
+}
+.container--fullPage .menu .menu__titre h5:hover::after {
+  width: 100%;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche, .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   margin-left: 15px;

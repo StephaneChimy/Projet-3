@@ -80,6 +80,41 @@ body {
             align-items: center;
             text-align: center;
 
+            h5{
+                font-size: 20px;
+            }
+
+            /* Animation de souligner */
+            &:nth-child(2) h5::after{
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: $base-menu2;
+                transition: width .3s;
+            }
+            &:nth-child(4) h5::after{
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: $variant1-menu2;
+                transition: width .3s;
+            }
+            &:nth-child(6) h5::after{
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: $variant2-menu2;
+                transition: width .3s;
+            }
+
+            /* Le background du pseudo élément prend une taille de 100% */
+            & h5:hover::after {
+                width: 100%;
+            }
+
             /* .menu__titre--ligneGauche, .menu__titre--ligneDroite{
                 width: 10em;
                 max-height: 1em;

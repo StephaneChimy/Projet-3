@@ -105,7 +105,7 @@ footer {
   display: flex;
   align-items: center;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
-  position: sticky;
+  /* position: sticky; */
   bottom: 0;
 }
 footer nav {
@@ -238,10 +238,42 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  /* Animation de souligner */
+  /* Le background du pseudo élément prend une taille de 100% */
   /* .menu__titre--ligneGauche, .menu__titre--ligneDroite{
       width: 10em;
       max-height: 1em;
   } */
+}
+.container--fullPage .menu .menu__titre h5 {
+  font-size: 20px;
+}
+.container--fullPage .menu .menu__titre:nth-child(2) h5::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #c8721f;
+  transition: width 0.3s;
+}
+.container--fullPage .menu .menu__titre:nth-child(4) h5::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #a26a95;
+  transition: width 0.3s;
+}
+.container--fullPage .menu .menu__titre:nth-child(6) h5::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #6c56c6;
+  transition: width 0.3s;
+}
+.container--fullPage .menu .menu__titre h5:hover::after {
+  width: 100%;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   transform: scaleX(-1);

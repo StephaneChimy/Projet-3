@@ -11,7 +11,7 @@ footer{
     display: flex;
     align-items: center;
     @include fontstyle("Trueno");
-    position: sticky;
+    /* position: sticky; */
     bottom: 0;
 
     nav{
