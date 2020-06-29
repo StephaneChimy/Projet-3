@@ -173,6 +173,7 @@ body {
   flex-wrap: wrap;
   margin: auto;
   background-color: white;
+  /* Media querie pour mobile */
 }
 .container--fullPage .nomRestaurant {
   font-size: 15px;
@@ -275,7 +276,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: nowrap;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   width: 80%;
 }
 .container--fullPage .menu .menu__corps .menu__choix {
@@ -295,6 +296,14 @@ body {
 .container--fullPage .menu .menu__footer i {
   margin-right: 5px;
   font-size: 25px;
+}
+@media (max-width: 600px) {
+  .container--fullPage .menu {
+    font-size: 10px;
+  }
+  .container--fullPage .menu .menu__titre h5 {
+    font-size: 13px;
+  }
 }
 
 /*# sourceMappingURL=papilles.css.map */

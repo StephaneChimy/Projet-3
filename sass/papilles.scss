@@ -116,7 +116,7 @@ body{
             flex-direction: column;
             justify-content: space-between;
             flex-wrap: nowrap;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
             width: 80%;
 
             .menu__choix{
@@ -138,6 +138,16 @@ body{
             i{
                 margin-right: 5px;
                 font-size: 25px;
+            }
+        }
+    }
+    /* Media querie pour mobile */
+    @media (max-width:600px){
+        .menu{
+            font-size: 10px;
+
+            .menu__titre h5{
+                font-size: 13px;
             }
         }
     }
