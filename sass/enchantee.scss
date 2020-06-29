@@ -16,19 +16,18 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 800px;
     background-color: white;
 
     .nomRestaurant {
         font-size: 15px;
+        font-family: sans-serif;
     }
 
     .menu {
         max-width: 500px;
-        width: 100%;
         display: flex;
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         padding: 50px;
         background-color: $background-color-menu-1;
         -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
@@ -53,6 +52,7 @@ body {
                 @include fontstyle ('Devonshire');
                 font-weight: inherit;
                 font-size: 35px;
+                margin: 0;
             }
         }
 
@@ -93,13 +93,13 @@ body {
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
 
             .menu__choix {
                 display: flex;
                 justify-content: space-between;
                 flex: 2;
-                margin-bottom: 1em;
+                margin-bottom: 10px;
 
                 .menu__prix {
                     flex: 1;
