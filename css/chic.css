@@ -279,7 +279,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: nowrap;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   width: 80%;
 }
 .container--fullPage .menu .menu__corps .menu__choix {
