@@ -16,4 +16,9 @@ header{
     font-size: 20px;
     @include fontstyle("Trueno");
     letter-spacing: -2px;
+
+    & a{
+        text-decoration: none;
+        color: inherit;
+    }
 }

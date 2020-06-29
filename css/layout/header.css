@@ -58,5 +58,9 @@ header {
   font-family: "Trueno", Arial, Helvetica, sans-serif;
   letter-spacing: -2px;
 }
+header a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /*# sourceMappingURL=header.css.map */

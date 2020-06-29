@@ -72,6 +72,10 @@ header {
   font-family: "Trueno", Arial, Helvetica, sans-serif;
   letter-spacing: -2px;
 }
+header a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* Variables */
 /* Header */
@@ -152,6 +156,10 @@ footer nav ul li:hover {
   animation: shake 0.5s;
   /* Fait touner l'animation indéfiniment */
   animation-iteration-count: infinite;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {

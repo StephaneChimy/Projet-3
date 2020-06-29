@@ -30,8 +30,6 @@ body{
         /* .firstLine, .secondLine{
             display: flex;
         } */
-        
-
 
         .menu{
             /* flex:0.4; */
@@ -56,8 +54,6 @@ body{
             transition: (0.4s);
             overflow: hidden;/* Pour ne pas dépasser du cadre */
 
-        
-            
             .zoom{
                 display: flex;
                 flex-direction: column;
@@ -146,9 +142,5 @@ body{
                 height: 270px;
             }
         }
-    }
-    footer a{
-        text-decoration: none;
-        color: inherit;
     }
 }
