@@ -13,12 +13,12 @@
 @font-face {
   font-family: "Trueno";
   font-style: normal;
-  src: url("../../fonts/Trueno/truenorg.otf");
+  src: url("../fonts/Trueno/truenorg.otf");
 }
 @font-face {
   font-family: "Devonshire";
   font-style: normal;
-  src: url("../../fonts/Devonshire/Devonshire-Regular.ttf");
+  src: url("../fonts/Devonshire/Devonshire-Regular.ttf");
 }
 @font-face {
   font-family: "Flow";
