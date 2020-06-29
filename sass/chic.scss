@@ -148,4 +148,14 @@ body {
             }
         }
     }
+    /* Media querie pour mobile */
+    @media (max-width:600px){
+        .menu{
+            font-size: 10px;
+
+            .menu__titre h5{
+                font-size: 15px;
+            }
+        }
+    }
 }
