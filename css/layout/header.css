@@ -23,27 +23,27 @@
 @font-face {
   font-family: "Flow";
   font-style: normal;
-  src: url("../../fonts/Flow/flow_b.otf");
+  src: url("../fonts/Flow/flow_b.otf");
 }
 @font-face {
   font-family: "Croissant";
   font-style: normal;
-  src: url("../../fonts/Croissant/CroissantOne-Regular.ttf");
+  src: url("../fonts/Croissant/CroissantOne-Regular.ttf");
 }
 @font-face {
   font-family: "Dancing";
   font-style: normal;
-  src: url("../../fonts/Dancing/DancingScript-VariableFont_wght.ttf");
+  src: url("../fonts/Dancing/DancingScript-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "Segoe";
   font-style: normal;
-  src: url("../../fonts/Segoe/segoepr.ttf");
+  src: url("../fonts/Segoe/segoepr.ttf");
 }
 @font-face {
   font-family: "Kaushan";
   font-style: normal;
-  src: url("../../fonts/Kaushan/kaushanscript-regular.ttf");
+  src: url("../fonts/Kaushan/kaushanscript-regular.ttf");
 }
 header {
   display: flex;
