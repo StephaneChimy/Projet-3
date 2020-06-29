@@ -53,7 +53,6 @@ body{
         .menu__header{
             display: flex;
             flex-direction: column;
-            width: 100%;
             align-items: center;
             margin: 50px 0px 50px;;
             @include fontstyle('kaushan');
@@ -125,6 +124,16 @@ body{
             i{
                 margin-right: 5px;
                 font-size: 25px;
+            }
+        }
+    }
+    /* Media querie pour mobile */
+    @media (max-width:600px){
+        .menu{
+            font-size: 10px;
+
+            .menu__titre h5{
+                font-size: 13px;
             }
         }
     }
