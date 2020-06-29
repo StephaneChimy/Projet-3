@@ -190,7 +190,8 @@ body {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   background-color: #FDFFFD;
   font-family: "Segoe", Arial, Helvetica, sans-serif;
-  font-size: 0.8em;
+  font-size: 13px;
+  padding-bottom: 50px;
   /* Couleur Gradient */
   /* .menu__titre:nth-child(2) {
       fill: $base-menu4;

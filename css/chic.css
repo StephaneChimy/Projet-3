@@ -192,6 +192,7 @@ body {
   letter-spacing: 0.5px;
   color: #c8721f;
   fill: #c8721f;
+  padding-bottom: 50px;
 }
 .container--fullPage .menu .menu__titre:nth-child(4) {
   color: #a26a95;
