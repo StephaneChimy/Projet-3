@@ -19,6 +19,7 @@ button{
 
     &:hover{
         @keyframes bounce {
+            
             30% { transform: scaleY(0.5) scaleX(1.5);}
             90% { transform: translateY(-10px) scaleY(1.2) scaleX(0.9);}
         }
@@ -43,7 +44,7 @@ button{
 
     i{
         font-size: 5px;
-        margin-left: 2px;
+        margin-left: 3px;
         margin-right: 2px;
     }
 }
