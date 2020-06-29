@@ -224,6 +224,7 @@ body {
   flex-wrap: wrap;
   margin: auto;
   background-color: white;
+  min-width: 250px;
 }
 .container--fullPage main {
   display: flex;
@@ -275,6 +276,9 @@ body {
   transform: scale(1.2);
   opacity: 0.5;
   background: rgba(255, 255, 255, 0.3);
+}
+.container--fullPage main .menu h3 {
+  margin: 0;
 }
 .container--fullPage main .menu:nth-child(1) {
   background-color: #fcdfdb;
