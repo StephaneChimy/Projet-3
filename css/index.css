@@ -167,20 +167,20 @@ footer nav ul li:hover {
 /* Variables du menu 3 */
 /* Variables du menu 4 */
 .container--button {
-  width: 40%;
+  width: 35%;
   min-width: 225px;
 }
 
 button {
   margin-bottom: 40px;
   width: 100%;
-  min-height: 60px;
+  min-height: 40px;
   max-height: 80px;
   border: none;
   border-radius: 10px;
   background-color: #579c87;
   color: #fcca46;
-  font-size: 30px;
+  font-size: 20px;
 }
 @keyframes bounce {
   30% {
@@ -208,7 +208,7 @@ button:hover i:nth-child(3) {
   animation-iteration-count: infinite;
 }
 button i {
-  font-size: 10px;
+  font-size: 5px;
   margin-left: 2px;
   margin-right: 2px;
 }
@@ -234,6 +234,7 @@ body {
   /* .firstLine, .secondLine{
       display: flex;
   } */
+  /* Media querie pour les mobiles */
 }
 .container--fullPage main .menu {
   /* flex:0.4; */
