@@ -16,12 +16,15 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 800px;
     background-color: white;
+    
+    .nomRestaurant {
+        font-size: 15px;
+        font-family: sans-serif;
+    }
 
     .menu {
         max-width: 600px;
-        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;

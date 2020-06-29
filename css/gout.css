@@ -63,7 +63,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 80px;
   margin-bottom: 50px;
   width: 100%;
   background-color: #579c87;
@@ -172,12 +172,14 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  max-width: 800px;
   background-color: white;
+}
+.container--fullPage .nomRestaurant {
+  font-size: 15px;
+  font-family: sans-serif;
 }
 .container--fullPage .menu {
   max-width: 600px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

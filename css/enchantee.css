@@ -63,7 +63,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 80px;
   margin-bottom: 50px;
   width: 100%;
   background-color: #579c87;
@@ -179,7 +179,7 @@ body {
   font-family: sans-serif;
 }
 .container--fullPage .menu {
-  max-width: 500px;
+  max-width: 550px;
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
