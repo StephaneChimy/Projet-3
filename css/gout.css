@@ -191,6 +191,7 @@ body {
   background-color: #FDFFFD;
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   font-size: 0.8em;
+  /* Couleur Gradient */
   /* .menu__titre:nth-child(2) {
       fill: $base-menu4;
   }
@@ -211,7 +212,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 0px 50px;
   font-family: "kaushan", Arial, Helvetica, sans-serif;
   font-size: 50px;
 }
