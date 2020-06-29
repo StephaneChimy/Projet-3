@@ -79,12 +79,13 @@ body{
                 @include backgroundMenu;
 
                 i{
-                    font-size: 35px;
+                    font-size: 25px;
                     @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
                 }
                 h3{
                     @include fontstyle ("Devonshire");
                     font-weight: lighter;
+                    font-size: 15px;
                 }
                 p{
                     @include fontstyle ("Flow");
@@ -98,7 +99,7 @@ body{
                 h3{
                     @include fontstyle ("Croissant");
                     @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
-                    font-size: 15px;
+                    font-size: 10px;
                 }
                 p{
                     font-size: 25px;
@@ -112,6 +113,7 @@ body{
                 h3{
                     @include fontstyle ("Dancing");
                     @include textGradient ($base-menu3, $variant1-menu3, $variant2-menu3);
+                    font-size: 15px;
                 }
                 p{
                     @include fontstyle ("Segoe");
@@ -124,7 +126,8 @@ body{
 
                 h3{
                     @include fontstyle ("Kaushan");
-                @include textGradient ($base-menu4, $base-menu4, $variant1-menu4);
+                    @include textGradient ($base-menu4, $base-menu4, $variant1-menu4);
+                    font-size: 15px;
 
                 }
                 p{

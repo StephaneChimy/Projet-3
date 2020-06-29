@@ -292,7 +292,7 @@ body {
   background-color: #fcdfdb;
 }
 .container--fullPage main .menu:nth-child(1) i {
-  font-size: 35px;
+  font-size: 25px;
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
   background-clip: text;
   -webkit-background-clip: text;
@@ -304,6 +304,7 @@ body {
 .container--fullPage main .menu:nth-child(1) h3 {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: lighter;
+  font-size: 15px;
 }
 .container--fullPage main .menu:nth-child(1) p {
   font-family: "Flow", Arial, Helvetica, sans-serif;
@@ -322,7 +323,7 @@ body {
   padding: 5px;
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
-  font-size: 15px;
+  font-size: 10px;
 }
 .container--fullPage main .menu:nth-child(2) p {
   font-size: 25px;
@@ -341,6 +342,7 @@ body {
   padding: 5px;
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
+  font-size: 15px;
 }
 .container--fullPage main .menu:nth-child(3) p {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
@@ -359,6 +361,7 @@ body {
   padding: 5px;
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
+  font-size: 15px;
 }
 .container--fullPage main .menu:nth-child(4) p {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
