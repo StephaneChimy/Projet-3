@@ -57,9 +57,8 @@ body {
         .menu__header {
             display: flex;
             flex-direction: column;
-            width: 100%;
             align-items: center;
-            margin: 50px 0px 50px;
+            margin: 10px 0px 10px;
             @include fontstyle('Croissant');
 
             i {
