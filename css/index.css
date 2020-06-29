@@ -63,12 +63,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  height: 100px;
   margin-bottom: 50px;
   width: 100%;
   background-color: #579c87;
   color: #fcca46;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
   letter-spacing: -2px;
 }
@@ -223,7 +223,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  max-width: 800px;
   background-color: white;
 }
 .container--fullPage main {
@@ -231,6 +230,10 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  max-width: 800px;
+  /* .firstLine, .secondLine{
+      display: flex;
+  } */
 }
 .container--fullPage main .menu {
   /* flex:0.4; */
@@ -348,6 +351,12 @@ body {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   font-size: 25px;
   color: #53a14b;
+}
+@media (max-width: 600px) {
+  .container--fullPage main .menu {
+    width: 190px;
+    height: 270px;
+  }
 }
 .container--fullPage footer a {
   text-decoration: none;

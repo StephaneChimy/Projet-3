@@ -63,12 +63,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  height: 100px;
   margin-bottom: 50px;
   width: 100%;
   background-color: #579c87;
   color: #fcca46;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
   letter-spacing: -2px;
 }
