@@ -229,7 +229,6 @@ body {
 }
 .container--fullPage .menu .menu__titre {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   text-align: center;
