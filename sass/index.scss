@@ -73,6 +73,10 @@ body{
             }
             h3{
                 margin: 0;
+                font-size: 25px;
+            }
+            p{
+                font-size: 25px;
             }
             
             &:nth-child(1){
@@ -85,11 +89,10 @@ body{
                 h3{
                     @include fontstyle ("Devonshire");
                     font-weight: lighter;
-                    font-size: 15px;
+                    
                 }
                 p{
                     @include fontstyle ("Flow");
-                    font-size: 25px;
                     text-transform: uppercase;
                 }
             }
@@ -99,10 +102,9 @@ body{
                 h3{
                     @include fontstyle ("Croissant");
                     @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
-                    font-size: 10px;
+                    font-size: 15px;
                 }
                 p{
-                    font-size: 25px;
                     font-weight: bolder;
                     color:$base-menu2;
                 }
@@ -113,11 +115,9 @@ body{
                 h3{
                     @include fontstyle ("Dancing");
                     @include textGradient ($base-menu3, $variant1-menu3, $variant2-menu3);
-                    font-size: 15px;
                 }
                 p{
                     @include fontstyle ("Segoe");
-                    font-size: 25px;
                     color: $base-menu3;
                 }
             }
@@ -127,22 +127,27 @@ body{
                 h3{
                     @include fontstyle ("Kaushan");
                     @include textGradient ($base-menu4, $base-menu4, $variant1-menu4);
-                    font-size: 15px;
-
                 }
                 p{
                     @include fontstyle ("Segoe");
-                    font-size: 25px;
                     color: $base-menu4;
                 }
             }
         }
         /* Media querie pour les mobiles */
         @media (max-width:600px){
-
             .menu{
                 width: 190px;
                 height: 270px;
+
+                h3{
+                    font-size: 15px;
+                }
+                &:nth-child(2){
+                    h3{
+                        font-size: 10px;
+                    }
+                }
             }
         }
     }

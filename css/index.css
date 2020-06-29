@@ -287,6 +287,10 @@ body {
 }
 .container--fullPage main .menu h3 {
   margin: 0;
+  font-size: 25px;
+}
+.container--fullPage main .menu p {
+  font-size: 25px;
 }
 .container--fullPage main .menu:nth-child(1) {
   background-color: #fcdfdb;
@@ -304,11 +308,9 @@ body {
 .container--fullPage main .menu:nth-child(1) h3 {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: lighter;
-  font-size: 15px;
 }
 .container--fullPage main .menu:nth-child(1) p {
   font-family: "Flow", Arial, Helvetica, sans-serif;
-  font-size: 25px;
   text-transform: uppercase;
 }
 .container--fullPage main .menu:nth-child(2) {
@@ -323,10 +325,9 @@ body {
   padding: 5px;
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
-  font-size: 10px;
+  font-size: 15px;
 }
 .container--fullPage main .menu:nth-child(2) p {
-  font-size: 25px;
   font-weight: bolder;
   color: #c8721f;
 }
@@ -342,11 +343,9 @@ body {
   padding: 5px;
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
-  font-size: 15px;
 }
 .container--fullPage main .menu:nth-child(3) p {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
-  font-size: 25px;
   color: #003ad9;
 }
 .container--fullPage main .menu:nth-child(4) {
@@ -361,17 +360,21 @@ body {
   padding: 5px;
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
-  font-size: 15px;
 }
 .container--fullPage main .menu:nth-child(4) p {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
-  font-size: 25px;
   color: #53a14b;
 }
 @media (max-width: 600px) {
   .container--fullPage main .menu {
     width: 190px;
     height: 270px;
+  }
+  .container--fullPage main .menu h3 {
+    font-size: 15px;
+  }
+  .container--fullPage main .menu:nth-child(2) h3 {
+    font-size: 10px;
   }
 }
 
