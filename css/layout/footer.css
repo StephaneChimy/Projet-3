@@ -13,13 +13,13 @@
 /* Variables du menu 4 */
 footer {
   width: 100%;
-  height: 70px;
+  height: 6vh;
   background-color: #579c87;
   color: #fcca46;
   display: flex;
   align-items: center;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 footer nav {
@@ -35,7 +35,7 @@ footer nav ul li {
   list-style-type: none;
   margin-left: 2%;
   margin-right: 2%;
-  font-size: 25px;
+  font-size: 15px;
   /* Détails de l'animation */
 }
 @keyframes shake {
