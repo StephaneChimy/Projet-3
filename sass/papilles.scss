@@ -7,80 +7,33 @@
 @import "./layout/footer.scss";
 @import "./menu.scss";
 
-body{
-    background-color: #ECECEC;
-}
 .container--fullPage{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    background-color: white;
-
-    .nomRestaurant {
-        font-size: 15px;
-        font-family: sans-serif;
-    }
 
     .menu{
-        max-width: 600px;
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        margin-bottom: 50px;
-        -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
-        -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
-        box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
         @include backgroundMenu($background-color-menu-3);
         @include fontstyle ('Segoe');
         font-size: 13px;
         padding-bottom: 50px;
 
         .menu__header{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            align-items: center;
             @include fontstyle('Dancing');
             font-size: 40px;
 
             h3{
-            @include textGradient ($base-menu3, $variant1-menu3, $variant2-menu3);
-            font-weight: inherit;
-
+                margin-top: 50px;
+                margin-bottom: 20px;
+                @include textGradient ($base-menu3, $variant1-menu3, $variant2-menu3);
             }
         }
         .menu__titre{
-            display: flex;
             width: 95%;
-            justify-content: space-between;
             align-items: baseline;
-            text-align: center;
             
             h5{
                 font-size: 15px;
             }
-            /* Animation de souligner */
-            & h5::after{
-                content: '';
-                display: block;
-                width: 0;
-                height: 2px;
-                background: black;
-                transition: width .3s;
-            }
-            /* Le background du pseudo élément prend une taille de 100% */
-            & h5:hover::after {
-                width: 100%;
-            }
-            /*  .menu__titre--ligneGauche, .menu__titre--ligneDroite{
-                width: 160px;
-                max-height: 10px;
-            } */
-            .menu__titre--ligneDroite{
-                transform: scaleX(-1);
-            }
+            
             /*.parallelogramme{
                 width: 30%;
                 height: 5px;
@@ -103,6 +56,8 @@ body{
         .menu__titre:nth-child(6) .parallelogramme, .menu__titre:nth-child(6) .parallelogramme2 {
             background: $variant2-menu3;
         } */
+
+        /* Couleurs des svg */
         .menu__titre{
             fill: $base-menu3;
         }
@@ -113,43 +68,7 @@ body{
             fill: $variant2-menu3;
         }
         .menu__corps{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            flex-wrap: nowrap;
-            margin-bottom: 20px;
             width: 80%;
-
-            .menu__choix{
-                display: flex;
-                justify-content: space-between;
-                flex: 2;
-                margin-bottom: 1em;  
-
-                .menu__prix{
-                    flex:1;
-                }
-            }
-        }
-        .menu__footer{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            i{
-                margin-right: 5px;
-                font-size: 25px;
-            }
-        }
-    }
-    /* Media querie pour mobile */
-    @media (max-width:600px){
-        .menu{
-            font-size: 10px;
-
-            .menu__titre h5{
-                font-size: 13px;
-            }
-        }
+        }   
     }
 }
