@@ -4,7 +4,7 @@
 @import "../utils/mixins";
 
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ header{
     @include fontstyle("Trueno");
     letter-spacing: -2px;
 
-    & a{
+    & a {
         text-decoration: none;
         color: inherit;
     }

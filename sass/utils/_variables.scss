@@ -12,22 +12,25 @@ $background-color-menu-4: #FDFFFD;
 
 /* Menus font colors */
 
-$base-menu1: hsl(355.8, 85.7%, 64.3%); /* hsl(14.3, 91.1%, 69.2%) */
-$base-menu2: hsl(29.5, 73.2%, 45.3%); /* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
+$base-menu1: hsl(355.8, 85.7%, 64.3%);
+/* hsl(14.3, 91.1%, 69.2%) */
+$base-menu2: hsl(29.5, 73.2%, 45.3%);
+/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
 $base-menu3: hsl(224.0, 100.0%, 42.5%);
-$base-menu4: hsl(114.4, 36.4%, 46.3%); /* hsl(90.5, 96.7%, 76.1%) */
+$base-menu4: hsl(114.4, 36.4%, 46.3%);
+/* hsl(90.5, 96.7%, 76.1%) */
 
 /** 2 variables par menu **/
 /* 1 Variable du menu 1 (les icons) */
-$variant1-menu1: adjust-color($base-menu1,$hue: -340.7deg, $saturation: +5.4%, $lightness: +5.1%);
+$variant1-menu1: adjust-color($base-menu1, $hue: -340.7deg, $saturation: +5.4%, $lightness: +5.1%);
 
 /* Variables du menu 2 */
-$variant1-menu2: adjust-color($base-menu2,$hue: +284.3deg, $saturation: -50%, $lightness: +7.4%);
-$variant2-menu2: adjust-color($variant1-menu2,$hue: -62.4deg, $saturation: +26%, $lightness: +3%);
+$variant1-menu2: adjust-color($base-menu2, $hue: +284.3deg, $saturation: -50%, $lightness: +7.4%);
+$variant2-menu2: adjust-color($variant1-menu2, $hue: -62.4deg, $saturation: +26%, $lightness: +3%);
 
 /* Variables du menu 3 */
 $variant1-menu3: adjust-color($base-menu3, $hue: -14deg, $lightness: +2%);
 $variant2-menu3: adjust-color($variant1-menu3, $hue: -10deg, $lightness: +2%);
 
 /* Variables du menu 4 */
-$variant1-menu4: adjust-color($base-menu4,$hue: -23.7deg, $saturation: +60%, $lightness: +30%);
+$variant1-menu4: adjust-color($base-menu4, $hue: -23.7deg, $saturation: +60%, $lightness: +30%);

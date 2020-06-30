@@ -17,7 +17,7 @@ body {
     flex-wrap: wrap;
     margin: auto;
     background-color: white;
-    
+
     .nomRestaurant {
         font-size: 15px;
         font-family: sans-serif;
@@ -43,18 +43,22 @@ body {
             color: $variant1-menu2;
             fill: $variant1-menu2;
         }
+
         .menu__corps:nth-child(5) {
             color: $variant1-menu2;
         }
+
         .menu__titre:nth-child(6) {
 
             color: $variant2-menu2;
             fill: $variant2-menu2;
         }
+
         .menu__corps:nth-child(7) {
 
             color: $variant2-menu2;
         }
+
         .menu__header {
             display: flex;
             flex-direction: column;
@@ -71,17 +75,19 @@ body {
                 @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
             }
         }
+
         .menu__titre {
             display: flex;
             justify-content: space-between;
             align-items: center;
             text-align: center;
 
-            h5{
+            h5 {
                 font-size: 20px;
             }
+
             /* Animation de souligner */
-            &:nth-child(2) h5::after{
+            &:nth-child(2) h5::after {
                 content: '';
                 display: block;
                 width: 0;
@@ -89,7 +95,8 @@ body {
                 background: $base-menu2;
                 transition: width .3s;
             }
-            &:nth-child(4) h5::after{
+
+            &:nth-child(4) h5::after {
                 content: '';
                 display: block;
                 width: 0;
@@ -97,7 +104,8 @@ body {
                 background: $variant1-menu2;
                 transition: width .3s;
             }
-            &:nth-child(6) h5::after{
+
+            &:nth-child(6) h5::after {
                 content: '';
                 display: block;
                 width: 0;
@@ -105,10 +113,12 @@ body {
                 background: $variant2-menu2;
                 transition: width .3s;
             }
+
             /* Le background du pseudo élément prend une taille de 100% */
             & h5:hover::after {
                 width: 100%;
             }
+
             /* .menu__titre--ligneGauche, .menu__titre--ligneDroite{
                 width: 10em;
                 max-height: 1em;
@@ -117,6 +127,7 @@ body {
                 transform: scaleX(-1);
             }
         }
+
         .menu__corps {
             display: flex;
             flex-direction: column;
@@ -136,6 +147,7 @@ body {
                 }
             }
         }
+
         .menu__footer {
             display: flex;
             justify-content: center;
@@ -147,12 +159,13 @@ body {
             }
         }
     }
+
     /* Media querie pour mobile */
-    @media (max-width:600px){
-        .menu{
+    @media (max-width:600px) {
+        .menu {
             font-size: 10px;
 
-            .menu__titre h5{
+            .menu__titre h5 {
                 font-size: 15px;
             }
         }

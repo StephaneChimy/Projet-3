@@ -61,9 +61,9 @@ body {
             align-items: center;
             text-align: center;
             font-size: 20px;
-            
+
             /* Animation de souligner */
-            & h5::after{
+            & h5::after {
                 content: '';
                 display: block;
                 width: 0;
@@ -124,15 +124,16 @@ body {
             }
         }
     }
+
     /* Media querie pour mobile */
-    @media (max-width:600px){
-        .menu{
+    @media (max-width:600px) {
+        .menu {
             font-size: 10px;
 
-            .menu__titre{
+            .menu__titre {
                 font-size: 15px;
             }
         }
     }
-    
+
 }

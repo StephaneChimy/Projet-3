@@ -1,40 +1,48 @@
 /* Variables */
 @import "../utils/variables";
 
-.container--button{
+.container--button {
     width: 35%;
     min-width: 225px;
 }
 
-button{
+button {
     margin-bottom: 40px;
     width: 100%;
     min-height: 40px;
     max-height: 80px;
     border: none;
     border-radius: 10px;
-    background-color: $header-background-color ;
+    background-color: $header-background-color;
     color: $header-title-color;
     font-size: 20px;
 
-    &:hover{
+    &:hover {
         @keyframes bounce {
-            
-            30% { transform: scaleY(0.5) scaleX(1.5);}
-            90% { transform: translateY(-10px) scaleY(1.2) scaleX(0.9);}
+
+            30% {
+                transform: scaleY(0.5) scaleX(1.5);
+            }
+
+            90% {
+                transform: translateY(-10px) scaleY(1.2) scaleX(0.9);
+            }
         }
-        i:nth-child(1){
+
+        i:nth-child(1) {
             animation: bounce 0.5s;
             /* Fait touner l'animation indéfiniment */
             animation-iteration-count: infinite;
         }
-        i:nth-child(2){
+
+        i:nth-child(2) {
             animation: bounce 0.5s;
             animation-delay: 0.1s;
             /* Fait touner l'animation indéfiniment */
             animation-iteration-count: infinite;
         }
-        i:nth-child(3){
+
+        i:nth-child(3) {
             animation: bounce 0.5s;
             animation-delay: 0.2s;
             /* Fait touner l'animation indéfiniment */
@@ -42,7 +50,7 @@ button{
         }
     }
 
-    i{
+    i {
         font-size: 5px;
         margin-left: 3px;
         margin-right: 2px;
