@@ -5,83 +5,60 @@
 @import "./utils/mixins";
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
+@import "./menu.scss";
 
-body {
-    background-color: #ECECEC;
-}
 
 .container--fullPage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    background-color: white;
     
-    .nomRestaurant {
-        font-size: 15px;
-        font-family: sans-serif;
-    }
-
     .menu {
         max-width: 600px;
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        margin-bottom: 50px;
-        -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
         @include backgroundMenu($background-color-menu-2);
         letter-spacing: 0.5px;
+        padding-bottom: 50px;
+        /* Couleurs typo + svg */
         color: $base-menu2;
         fill: $base-menu2;
-        padding-bottom: 50px;
 
+        .menu__header {
+            @include fontstyle('Croissant');
+            margin: 50px 0px 10px;
+
+            h3 {
+                @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
+                font-size: 30px;
+            }
+        }
+        /* Couleurs des titres et svg */
         .menu__titre:nth-child(4) {
 
             color: $variant1-menu2;
             fill: $variant1-menu2;
         }
+
         .menu__corps:nth-child(5) {
             color: $variant1-menu2;
         }
+
         .menu__titre:nth-child(6) {
 
             color: $variant2-menu2;
             fill: $variant2-menu2;
         }
+
         .menu__corps:nth-child(7) {
 
             color: $variant2-menu2;
         }
-        .menu__header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 10px 0px 10px;
-            @include fontstyle('Croissant');
 
-            i {
-                font-size: 55px;
-            }
-
-            h3 {
-                font-size: 30px;
-                @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
-            }
-        }
         .menu__titre {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            text-align: center;
 
-            h5{
+            h5 {
                 font-size: 20px;
             }
+
             /* Animation de souligner */
-            &:nth-child(2) h5::after{
+            &:nth-child(2) h5::after {
                 content: '';
                 display: block;
                 width: 0;
@@ -89,7 +66,8 @@ body {
                 background: $base-menu2;
                 transition: width .3s;
             }
-            &:nth-child(4) h5::after{
+
+            &:nth-child(4) h5::after {
                 content: '';
                 display: block;
                 width: 0;
@@ -97,7 +75,8 @@ body {
                 background: $variant1-menu2;
                 transition: width .3s;
             }
-            &:nth-child(6) h5::after{
+
+            &:nth-child(6) h5::after {
                 content: '';
                 display: block;
                 width: 0;
@@ -105,56 +84,16 @@ body {
                 background: $variant2-menu2;
                 transition: width .3s;
             }
+
             /* Le background du pseudo élément prend une taille de 100% */
             & h5:hover::after {
                 width: 100%;
             }
-            /* .menu__titre--ligneGauche, .menu__titre--ligneDroite{
-                width: 10em;
-                max-height: 1em;
-            } */
-            .menu__titre--ligneDroite {
-                transform: scaleX(-1);
-            }
         }
+
         .menu__corps {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            flex-wrap: nowrap;
-            margin-bottom: 20px;
             width: 80%;
-
-            .menu__choix {
-                display: flex;
-                justify-content: space-between;
-                flex: 2;
-                margin-bottom: 1em;
-
-                .menu__prix {
-                    flex: 1;
-                }
-            }
-        }
-        .menu__footer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            i {
-                margin-right: 5px;
-                font-size: 25px;
-            }
         }
     }
-    /* Media querie pour mobile */
-    @media (max-width:600px){
-        .menu{
-            font-size: 10px;
 
-            .menu__titre h5{
-                font-size: 15px;
-            }
-        }
-    }
 }
