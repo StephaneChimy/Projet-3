@@ -2,7 +2,8 @@
 @import "../utils/variables";
 
 .container--button{
-    min-width: 45vw;
+    width: 45vw;
+    max-width: 250px;
 }
 
 button{

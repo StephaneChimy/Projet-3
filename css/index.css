@@ -175,7 +175,8 @@ footer a {
 /* Variables du menu 3 */
 /* Variables du menu 4 */
 .container--button {
-  min-width: 45vw;
+  width: 45vw;
+  max-width: 250px;
 }
 
 button {
@@ -221,42 +222,48 @@ button i {
 
 body {
   background-color: #ECECEC;
-  max-height: 100vh;
 }
 
 .container--fullPage {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
   background-color: white;
   margin-bottom: 5vh;
-}
-.container--fullPage main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  max-width: 100vw;
-  margin: auto;
+  height: 100vh;
+  width: 100vw;
   /* Media querie pour les mobiles */
+  /* @media (min-width:900px) {
+          .menu {
+              max-width: 150px;
+              height: 31vh;
+
+              h3 {
+                  font-size: 15px;
+              }
+
+              &:nth-child(2) {
+                  h3 {
+                      font-size: 10px;
+                  }
+              }
+          }
+      } */
 }
-.container--fullPage main .menu {
-  /* flex:0.4; */
-  width: 31vw;
+
+.firstLine,
+.secondLine {
+  display: flex;
+}
+
+.menu {
+  width: 150px;
   height: 31vh;
-  /* display: flex;
-  flex-direction: column; */
-  /* justify-content: center;  
-  align-items: center; */
   text-align: center;
   margin-bottom: 4vh;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
   /* Ombres sous les menus */
-  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   /* Due au fait que les menus soient des liens (changment de couleur) */
   text-decoration: none;
@@ -267,7 +274,7 @@ body {
   /* Pour ne pas dépasser du cadre */
   /* Zoom */
 }
-.container--fullPage main .menu .zoom {
+.menu .zoom {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,23 +284,23 @@ body {
   /* Zoom */
   transition: 0.4s;
 }
-.container--fullPage main .menu .zoom:hover {
+.menu .zoom:hover {
   transform: scale(1.2);
   opacity: 0.5;
   background: rgba(255, 255, 255, 0.3);
 }
-.container--fullPage main .menu h3 {
+.menu h3 {
   margin: 0;
   font-size: 25px;
 }
-.container--fullPage main .menu p {
+.menu p {
   font-size: 25px;
 }
-.container--fullPage main .menu:nth-child(1) {
+.menu:nth-child(1) {
   background-color: #fcdfdb;
 }
-.container--fullPage main .menu:nth-child(1) i {
-  font-size: 25px;
+.menu:nth-child(1) i {
+  font-size: 1.5em;
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
   background-clip: text;
   -webkit-background-clip: text;
@@ -302,21 +309,22 @@ body {
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
 }
-.container--fullPage main .menu:nth-child(1) h3 {
+.menu:nth-child(1) h3 {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 1em;
   margin-top: 0;
 }
-.container--fullPage main .menu:nth-child(1) p {
+.menu:nth-child(1) p {
   font-family: "Flow", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  margin: 0;
+  font-size: 1.2em;
+  margin-top: 10px;
 }
-.container--fullPage main .menu:nth-child(2) {
+.menu:nth-child(2) {
   background-color: #FFF5FE;
 }
-.container--fullPage main .menu:nth-child(2) h3 {
+.menu:nth-child(2) h3 {
   font-family: "Croissant", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #c8721f, #a26a95, #6c56c6);
   background-clip: text;
@@ -325,17 +333,19 @@ body {
   padding: 5px;
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
-  font-size: 11px;
+  font-size: 0.7em;
+  font-weight: inherit;
 }
-.container--fullPage main .menu:nth-child(2) p {
+.menu:nth-child(2) p {
   font-weight: bolder;
   color: #c8721f;
-  margin: 0;
+  font-size: 1.2em;
+  margin-top: 10px;
 }
-.container--fullPage main .menu:nth-child(3) {
+.menu:nth-child(3) {
   background-color: #F9F9F9;
 }
-.container--fullPage main .menu:nth-child(3) h3 {
+.menu:nth-child(3) h3 {
   font-family: "Dancing", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #003ad9, #0071e3, #009eed);
   background-clip: text;
@@ -347,15 +357,16 @@ body {
   margin: 0;
   font-size: 17px;
 }
-.container--fullPage main .menu:nth-child(3) p {
+.menu:nth-child(3) p {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   color: #003ad9;
+  font-size: 1.2em;
   margin: 0;
 }
-.container--fullPage main .menu:nth-child(4) {
+.menu:nth-child(4) {
   background-color: #FDFFFD;
 }
-.container--fullPage main .menu:nth-child(4) h3 {
+.menu:nth-child(4) h3 {
   font-family: "Kaushan", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #53a14b, #53a14b, #c1fd88);
   background-clip: text;
@@ -367,22 +378,11 @@ body {
   margin: 0;
   font-size: 17px;
 }
-.container--fullPage main .menu:nth-child(4) p {
+.menu:nth-child(4) p {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   color: #53a14b;
   margin: 0;
-}
-@media (max-width: 600px) {
-  .container--fullPage main .menu {
-    width: 190px;
-    height: 270px;
-  }
-  .container--fullPage main .menu h3 {
-    font-size: 15px;
-  }
-  .container--fullPage main .menu:nth-child(2) h3 {
-    font-size: 10px;
-  }
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=index.css.map */

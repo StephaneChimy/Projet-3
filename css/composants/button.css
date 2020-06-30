@@ -12,7 +12,8 @@
 /* Variables du menu 3 */
 /* Variables du menu 4 */
 .container--button {
-  min-width: 45vw;
+  width: 45vw;
+  max-width: 250px;
 }
 
 button {
