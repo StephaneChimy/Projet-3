@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Menus */
+/* Spécifications menu enchantee  */
 /* Variables */
 /* Header */
 /*Background menus */
@@ -162,6 +162,19 @@ footer a {
   color: inherit;
 }
 
+/** Structure de base **/
+/* Imports */
+/* Header */
+/*Background menus */
+/* Menus font colors */
+/* hsl(14.3, 91.1%, 69.2%) */
+/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
+/* hsl(90.5, 96.7%, 76.1%) */
+/** 2 variables par menu **/
+/* 1 Variable du menu 1 (les icons) */
+/* Variables du menu 2 */
+/* Variables du menu 3 */
+/* Variables du menu 4 */
 body {
   background-color: #ECECEC;
 }
@@ -180,17 +193,15 @@ body {
   font-family: sans-serif;
 }
 .container--fullPage .menu {
-  max-width: 550px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
-  padding: 50px;
-  background-color: #fcdfdb;
+  max-width: 600px;
+  margin-bottom: 50px;
+  /* Ombre des menus */
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   /* font */
-  font-family: "Segoe", Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 .container--fullPage .menu .menu__header {
@@ -200,17 +211,8 @@ body {
 }
 .container--fullPage .menu .menu__header i {
   font-size: 55px;
-  background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  padding: 5px;
-  /* Pour ne pas couper la police */
-  filter: brightness(1.2);
 }
 .container--fullPage .menu .menu__header h3 {
-  font-family: "Devonshire", Arial, Helvetica, sans-serif;
-  font-weight: inherit;
   font-size: 35px;
   margin: 0;
 }
@@ -222,11 +224,6 @@ body {
   font-size: 20px;
   /* Animation de souligner */
   /* Le background du pseudo élément prend une taille de 100% */
-  /* .menu__titre--ligneGauche, */
-  /* .menu__titre--ligneDroite {
-      width: 150px;
-      max-height: 15px;
-  } */
 }
 .container--fullPage .menu .menu__titre h5::after {
   content: "";
@@ -265,6 +262,37 @@ body {
 .container--fullPage .menu .menu__footer i {
   margin-right: 5px;
   font-size: 25px;
+}
+@media (max-width: 600px) {
+  .container--fullPage .menu {
+    font-size: 10px;
+  }
+  .container--fullPage .menu .menu__titre {
+    font-size: 15px;
+  }
+}
+
+.container--fullPage .menu {
+  max-width: 550px;
+  padding: 50px;
+  background-color: #fcdfdb;
+  /* font */
+  font-family: "Segoe", Arial, Helvetica, sans-serif;
+}
+.container--fullPage .menu .menu__header i {
+  background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 5px;
+  /* Pour ne pas couper la police */
+  filter: brightness(1.2);
+}
+.container--fullPage .menu .menu__header h3 {
+  font-family: "Devonshire", Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+}
+.container--fullPage .menu .menu__footer i {
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
   background-clip: text;
   -webkit-background-clip: text;
@@ -277,14 +305,6 @@ body {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: inherit;
   font-size: 25px;
-}
-@media (max-width: 600px) {
-  .container--fullPage .menu {
-    font-size: 10px;
-  }
-  .container--fullPage .menu .menu__titre {
-    font-size: 15px;
-  }
 }
 
 /*# sourceMappingURL=enchantee.css.map */

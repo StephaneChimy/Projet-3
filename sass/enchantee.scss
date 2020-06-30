@@ -1,119 +1,38 @@
-/* Menus */
+/* Spécifications menu enchantee  */
 
 /* Variables */
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
+@import "./menu.scss";
 
-body {
-    background-color: #ECECEC;
-}
+
 
 .container--fullPage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    background-color: white;
-
-    .nomRestaurant {
-        font-size: 15px;
-        font-family: sans-serif;
-    }
 
     .menu {
         max-width: 550px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
         padding: 50px;
         background-color: $background-color-menu-1;
-        -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
         /* font */
         @include fontstyle ('Segoe');
-        font-size: 12px;
 
         .menu__header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
 
             i {
-                font-size: 55px;
                 @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
             }
 
             h3 {
                 @include fontstyle ('Devonshire');
                 font-weight: inherit;
-                font-size: 35px;
-                margin: 0;
-            }
-        }
-
-        .menu__titre {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            text-align: center;
-            font-size: 20px;
-            
-            /* Animation de souligner */
-            & h5::after{
-                content: '';
-                display: block;
-                width: 0;
-                height: 2px;
-                background: black;
-                transition: width .3s;
-            }
-
-            /* Le background du pseudo élément prend une taille de 100% */
-            & h5:hover::after {
-                width: 100%;
-            }
-
-            /* .menu__titre--ligneGauche, */
-            /* .menu__titre--ligneDroite {
-                width: 150px;
-                max-height: 15px;
-            } */
-
-            .menu__titre--ligneDroite {
-                transform: scaleX(-1);
-            }
-        }
-
-        .menu__corps {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            margin-bottom: 20px;
-
-            .menu__choix {
-                display: flex;
-                justify-content: space-between;
-                flex: 2;
-                margin-bottom: 10px;
-
-                .menu__prix {
-                    flex: 1;
-                }
             }
         }
 
         .menu__footer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
 
             i {
-                margin-right: 5px;
-                font-size: 25px;
                 @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
             }
 
@@ -124,15 +43,4 @@ body {
             }
         }
     }
-    /* Media querie pour mobile */
-    @media (max-width:600px){
-        .menu{
-            font-size: 10px;
-
-            .menu__titre{
-                font-size: 15px;
-            }
-        }
-    }
-    
 }
