@@ -49,12 +49,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  margin-bottom: 50px;
+  height: 10vh;
+  margin-bottom: 4vh;
   width: 100%;
   background-color: #579c87;
   color: #fcca46;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
   letter-spacing: -2px;
 }

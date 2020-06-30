@@ -63,12 +63,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  margin-bottom: 50px;
+  height: 10vh;
+  margin-bottom: 4vh;
   width: 100%;
   background-color: #579c87;
   color: #fcca46;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
   letter-spacing: -2px;
 }
@@ -91,13 +91,13 @@ header a {
 /* Variables du menu 4 */
 footer {
   width: 100%;
-  height: 50px;
+  height: 6vh;
   background-color: #579c87;
   color: #fcca46;
   display: flex;
   align-items: center;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 footer nav {
@@ -273,14 +273,33 @@ body {
   }
 }
 
+.container--fullPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  background-color: white;
+}
+.container--fullPage .nomRestaurant {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 0;
+}
 .container--fullPage .menu {
-  max-width: 550px;
-  padding: 50px;
+  max-width: 500px;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10vh;
+  padding: 4vh;
   background-color: #fcdfdb;
   /* font */
   font-family: "Segoe", Arial, Helvetica, sans-serif;
+  font-size: 8px;
 }
 .container--fullPage .menu .menu__header i {
+  font-size: 40px;
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
   background-clip: text;
   -webkit-background-clip: text;
@@ -292,6 +311,51 @@ body {
 .container--fullPage .menu .menu__header h3 {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: inherit;
+  font-size: 25px;
+  margin: 0;
+}
+.container--fullPage .menu .menu__titre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  /* Animation de souligner */
+  /* Le background du pseudo élément prend une taille de 100% */
+  /* .menu__titre--ligneGauche, */
+  /* .menu__titre--ligneDroite {
+      width: 150px;
+      max-height: 15px;
+  } */
+}
+.container--fullPage .menu .menu__titre h5::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.3s;
+}
+.container--fullPage .menu .menu__titre h5:hover::after {
+  width: 100%;
+}
+.container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
+  transform: scaleX(-1);
+}
+.container--fullPage .menu .menu__corps {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 2vh;
+}
+.container--fullPage .menu .menu__corps .menu__choix {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  margin-bottom: 1em;
+}
+.container--fullPage .menu .menu__corps .menu__choix .menu__prix {
+  flex: 1;
 }
 .container--fullPage .menu .menu__footer i {
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
@@ -306,6 +370,7 @@ body {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: inherit;
   font-size: 25px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=enchantee.css.map */

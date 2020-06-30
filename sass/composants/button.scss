@@ -1,21 +1,19 @@
 /* Variables */
 @import "../utils/variables";
 
-.container--button {
-    width: 35%;
-    min-width: 225px;
+.container--button{
+    min-width: 45vw;
 }
 
-button {
-    margin-bottom: 40px;
+button{
+    margin-bottom: 4vh;
     width: 100%;
-    min-height: 40px;
-    max-height: 80px;
+    min-height: 5.5vh;
     border: none;
     border-radius: 10px;
     background-color: $header-background-color;
     color: $header-title-color;
-    font-size: 20px;
+    font-size: 18px;
 
     &:hover {
         @keyframes bounce {
@@ -50,9 +48,9 @@ button {
         }
     }
 
-    i {
-        font-size: 5px;
-        margin-left: 3px;
+    i{
+        font-size: 6px;
+        margin-left: 2px;
         margin-right: 2px;
     }
 }
