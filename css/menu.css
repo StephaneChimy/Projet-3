@@ -103,10 +103,10 @@ body {
 }
 @media (max-width: 600px) {
   .container--fullPage .menu {
-    font-size: 12px;
+    font-size: 10px;
   }
   .container--fullPage .menu .menu__titre {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
