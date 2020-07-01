@@ -175,8 +175,8 @@ footer a {
 /* Variables du menu 3 */
 /* Variables du menu 4 */
 .container--button {
-  width: 50vw;
-  max-width: 300px;
+  width: 35vw;
+  max-width: 220px;
 }
 
 button {
@@ -187,7 +187,7 @@ button {
   border-radius: 10px;
   background-color: #579c87;
   color: #fcca46;
-  font-size: 18px;
+  font-size: 1em;
 }
 @keyframes bounce {
   30% {

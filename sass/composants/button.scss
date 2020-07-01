@@ -1,57 +1,56 @@
 /* Variables */
 @import "../utils/variables";
 
-.container--button{
-    width: 50vw;
-    max-width: 300px;
+.container--button {
+  width: 35vw;
+  max-width: 220px;
 }
 
-button{
-    margin-bottom: 4vh;
-    width: 100%;
-    min-height: 5.5vh;
-    border: none;
-    border-radius: 10px;
-    background-color: $header-background-color;
-    color: $header-title-color;
-    font-size: 18px;
+button {
+  margin-bottom: 4vh;
+  width: 100%;
+  min-height: 5.5vh;
+  border: none;
+  border-radius: 10px;
+  background-color: $header-background-color;
+  color: $header-title-color;
+  font-size: 1em;
 
-    &:hover {
-        @keyframes bounce {
+  &:hover {
+    @keyframes bounce {
+      30% {
+        transform: scaleY(0.5) scaleX(1.5);
+      }
 
-            30% {
-                transform: scaleY(0.5) scaleX(1.5);
-            }
-
-            90% {
-                transform: translateY(-10px) scaleY(1.2) scaleX(0.9);
-            }
-        }
-
-        i:nth-child(1) {
-            animation: bounce 0.5s;
-            /* Fait touner l'animation indéfiniment */
-            animation-iteration-count: infinite;
-        }
-
-        i:nth-child(2) {
-            animation: bounce 0.5s;
-            animation-delay: 0.1s;
-            /* Fait touner l'animation indéfiniment */
-            animation-iteration-count: infinite;
-        }
-
-        i:nth-child(3) {
-            animation: bounce 0.5s;
-            animation-delay: 0.2s;
-            /* Fait touner l'animation indéfiniment */
-            animation-iteration-count: infinite;
-        }
+      90% {
+        transform: translateY(-10px) scaleY(1.2) scaleX(0.9);
+      }
     }
 
-    i{
-        font-size: 6px;
-        margin-left: 2px;
-        margin-right: 2px;
+    i:nth-child(1) {
+      animation: bounce 0.5s;
+      /* Fait touner l'animation indéfiniment */
+      animation-iteration-count: infinite;
     }
+
+    i:nth-child(2) {
+      animation: bounce 0.5s;
+      animation-delay: 0.1s;
+      /* Fait touner l'animation indéfiniment */
+      animation-iteration-count: infinite;
+    }
+
+    i:nth-child(3) {
+      animation: bounce 0.5s;
+      animation-delay: 0.2s;
+      /* Fait touner l'animation indéfiniment */
+      animation-iteration-count: infinite;
+    }
+  }
+
+  i {
+    font-size: 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
 }
