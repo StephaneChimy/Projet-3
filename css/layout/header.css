@@ -1,4 +1,3 @@
-/* Variables */
 /* Header */
 /*Background menus */
 /* Menus font colors */
@@ -49,18 +48,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2vh;
   height: 10vh;
   margin-bottom: 4vh;
   width: 100%;
   background-color: #579c87;
-  color: #fcca46;
-  font-size: 15px;
   font-family: "Trueno", Arial, Helvetica, sans-serif;
-  letter-spacing: -2px;
-}
-header a {
-  text-decoration: none;
-  color: inherit;
 }
 header img {
   width: 150px;
