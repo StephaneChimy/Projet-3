@@ -9,94 +9,25 @@
 
 
 .container--fullPage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 100vw;
-    background-color: white;
-
-    .nomRestaurant {
-        font-size: 15px;
-        font-family: sans-serif;
-        margin-top: 0;
-    }
 
     .menu {
-        max-width: 500px;
-        width: 70vw;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10vh;
-        padding: 4vh;
+        /* Avec padding = 600px */
+        max-width: 550px;
+        /* Contour décalé */
+        padding: 5vh 5vh 10vh 5vh;
+        /* Couleur background */
         background-color: $background-color-menu-1;
         /* font */
         @include fontstyle ('Segoe');
-        font-size: 8px;
 
         .menu__header {
 
             i {
-                font-size: 40px;
                 @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
             }
 
             h3 {
                 @include fontstyle ('Devonshire');
-                font-weight: inherit;
-                font-size: 25px;
-                margin: 0;
-            }
-        }
-
-        .menu__titre {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            text-align: center;
-            font-size: 15px;
-            
-            /* Animation de souligner */
-            & h5::after{
-                content: '';
-                display: block;
-                width: 0;
-                height: 2px;
-                background: black;
-                transition: width .3s;
-            }
-
-            /* Le background du pseudo élément prend une taille de 100% */
-            & h5:hover::after {
-                width: 100%;
-            }
-
-            /* .menu__titre--ligneGauche, */
-            /* .menu__titre--ligneDroite {
-                width: 150px;
-                max-height: 15px;
-            } */
-
-            .menu__titre--ligneDroite {
-                transform: scaleX(-1);
-            }
-        }
-
-        .menu__corps {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            margin-bottom: 2vh;
-
-            .menu__choix {
-                display: flex;
-                justify-content: space-between;
-                flex: 2;
-                margin-bottom: 1em;
-
-                .menu__prix {
-                    flex: 1;
-                }
             }
         }
 

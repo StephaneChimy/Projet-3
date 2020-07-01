@@ -244,13 +244,13 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-bottom: 20px;
+  margin-bottom: 3vh;
 }
 .container--fullPage .menu .menu__corps .menu__choix {
   display: flex;
   justify-content: space-between;
   flex: 2;
-  margin-bottom: 10px;
+  margin-bottom: 2vh;
 }
 .container--fullPage .menu .menu__corps .menu__choix .menu__prix {
   flex: 1;
@@ -261,7 +261,7 @@ body {
   align-items: center;
 }
 .container--fullPage .menu .menu__footer i {
-  margin-right: 5px;
+  margin-right: 1vh;
   font-size: 25px;
 }
 @media (max-width: 600px) {
