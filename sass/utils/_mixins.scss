@@ -1,26 +1,26 @@
-@mixin backgroundMenu ($colour: $background-color-menu-1) {
-    background-color: $colour;
+@mixin backgroundMenu($colour: $background-color-menu-1) {
+  background-color: $colour;
 }
 
-@mixin fontstyle ($font: Helvetica) {
-    font-family: $font, Arial, Helvetica, sans-serif;
+@mixin fontstyle($font: Helvetica) {
+  font-family: $font, Arial, Helvetica, sans-serif;
 }
 
-@mixin colorVarient1 ($color) {
-    color: $color;
-    filter: hue-rotate(230deg);
+@mixin colorVarient1($color) {
+  color: $color;
+  filter: hue-rotate(230deg);
 }
 
-@mixin colorVarient2 ($color) {
-    filter: hue-rotate(90deg);
+@mixin colorVarient2($color) {
+  filter: hue-rotate(90deg);
 }
 
-@mixin textGradient ($color1, $color2, $color3) {
-    background: -webkit-linear-gradient(left bottom, $color1, $color2, $color3);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    padding: 5px;
-    /* Pour ne pas couper la police */
-    filter: brightness(1.2);
+@mixin textGradient($color1, $color2, $color3) {
+  background: -webkit-linear-gradient(left bottom, $color1, $color2, $color3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 5px;
+  /* Pour ne pas couper la police */
+  filter: brightness(1.2);
 }

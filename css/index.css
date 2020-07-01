@@ -302,7 +302,7 @@ body {
   margin-top: 10px;
 }
 .firstLine .menu:nth-child(2) {
-  background-color: #FFF5FE;
+  background-color: #fff5fe;
 }
 .firstLine .menu:nth-child(2) h3 {
   font-family: "Croissant", Arial, Helvetica, sans-serif;
@@ -324,7 +324,7 @@ body {
 }
 
 .secondLine .menu:nth-child(1) {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 .secondLine .menu:nth-child(1) h3 {
   font-family: "Dancing", Arial, Helvetica, sans-serif;
@@ -345,7 +345,7 @@ body {
   margin: 0;
 }
 .secondLine .menu:nth-child(2) {
-  background-color: #FDFFFD;
+  background-color: #fdfffd;
 }
 .secondLine .menu:nth-child(2) h3 {
   font-family: "Kaushan", Arial, Helvetica, sans-serif;

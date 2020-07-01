@@ -7,89 +7,83 @@
 @import "./layout/footer.scss";
 @import "./menu.scss";
 
-
 .container--fullPage {
-    
-    .menu {
-        max-width: 600px;
-        align-items: center;
-        /* Background color */
-        @include backgroundMenu($background-color-menu-2);
-        letter-spacing: 0.5px;
-        padding-bottom: 50px;
-        /* Couleurs typo + svg */
-        color: $base-menu2;
-        fill: $base-menu2;
+  .menu {
+    max-width: 600px;
+    align-items: center;
+    /* Background color */
+    @include backgroundMenu($background-color-menu-2);
+    letter-spacing: 0.5px;
+    padding-bottom: 50px;
+    /* Couleurs typo + svg */
+    color: $base-menu2;
+    fill: $base-menu2;
 
-        .menu__header {
-            @include fontstyle('Croissant');
-            margin: 10vh 0vh 3vh;
+    .menu__header {
+      @include fontstyle("Croissant");
+      margin: 10vh 0vh 3vh;
 
-            h3 {
-                @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
-                font-size: 25px;
-            }
-        }
-        
-        /* Couleurs des titres et svg */
-        .menu__titre:nth-child(4) {
-
-            color: $variant1-menu2;
-            fill: $variant1-menu2;
-        }
-
-        .menu__corps:nth-child(5) {
-            color: $variant1-menu2;
-        }
-
-        .menu__titre:nth-child(6) {
-
-            color: $variant2-menu2;
-            fill: $variant2-menu2;
-        }
-
-        .menu__corps:nth-child(7) {
-
-            color: $variant2-menu2;
-        }
-        .menu__titre {
-
-            /* Animation de souligner */
-            &:nth-child(2) h5::after {
-                content: '';
-                display: block;
-                width: 0;
-                height: 2px;
-                background: $base-menu2;
-                transition: width .3s;
-            }
-
-            &:nth-child(4) h5::after {
-                content: '';
-                display: block;
-                width: 0;
-                height: 2px;
-                background: $variant1-menu2;
-                transition: width .3s;
-            }
-
-            &:nth-child(6) h5::after {
-                content: '';
-                display: block;
-                width: 0;
-                height: 2px;
-                background: $variant2-menu2;
-                transition: width .3s;
-            }
-
-            /* Le background du pseudo élément prend une taille de 100% */
-            & h5:hover::after {
-                width: 100%;
-            }
-        }
-
-        .menu__corps {
-            width: 80%;
-        }
+      h3 {
+        @include textGradient($base-menu2, $variant1-menu2, $variant2-menu2);
+        font-size: 25px;
+      }
     }
+
+    /* Couleurs des titres et svg */
+    .menu__titre:nth-child(4) {
+      color: $variant1-menu2;
+      fill: $variant1-menu2;
+    }
+
+    .menu__corps:nth-child(5) {
+      color: $variant1-menu2;
+    }
+
+    .menu__titre:nth-child(6) {
+      color: $variant2-menu2;
+      fill: $variant2-menu2;
+    }
+
+    .menu__corps:nth-child(7) {
+      color: $variant2-menu2;
+    }
+    .menu__titre {
+      /* Animation de souligner */
+      &:nth-child(2) h5::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: $base-menu2;
+        transition: width 0.3s;
+      }
+
+      &:nth-child(4) h5::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: $variant1-menu2;
+        transition: width 0.3s;
+      }
+
+      &:nth-child(6) h5::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: $variant2-menu2;
+        transition: width 0.3s;
+      }
+
+      /* Le background du pseudo élément prend une taille de 100% */
+      & h5:hover::after {
+        width: 100%;
+      }
+    }
+
+    .menu__corps {
+      width: 80%;
+    }
+  }
 }
