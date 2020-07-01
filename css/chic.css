@@ -266,16 +266,17 @@ body {
 }
 @media (max-width: 600px) {
   .container--fullPage .menu {
-    font-size: 10px;
+    font-size: 12px;
   }
   .container--fullPage .menu .menu__titre {
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 
 .container--fullPage .menu {
   max-width: 600px;
   align-items: center;
+  /* Background color */
   background-color: #FFF5FE;
   letter-spacing: 0.5px;
   padding-bottom: 50px;
@@ -286,7 +287,7 @@ body {
 }
 .container--fullPage .menu .menu__header {
   font-family: "Croissant", Arial, Helvetica, sans-serif;
-  margin: 50px 0px 10px;
+  margin: 10vh 0vh 3vh;
 }
 .container--fullPage .menu .menu__header h3 {
   background: -webkit-linear-gradient(left bottom, #c8721f, #a26a95, #6c56c6);
@@ -296,7 +297,7 @@ body {
   padding: 5px;
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
-  font-size: 30px;
+  font-size: 25px;
 }
 .container--fullPage .menu .menu__titre:nth-child(4) {
   color: #a26a95;
@@ -315,9 +316,6 @@ body {
 .container--fullPage .menu .menu__titre {
   /* Animation de souligner */
   /* Le background du pseudo élément prend une taille de 100% */
-}
-.container--fullPage .menu .menu__titre h5 {
-  font-size: 20px;
 }
 .container--fullPage .menu .menu__titre:nth-child(2) h5::after {
   content: "";

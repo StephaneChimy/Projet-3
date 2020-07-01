@@ -13,6 +13,7 @@
     .menu {
         max-width: 600px;
         align-items: center;
+        /* Background color */
         @include backgroundMenu($background-color-menu-2);
         letter-spacing: 0.5px;
         padding-bottom: 50px;
@@ -22,13 +23,14 @@
 
         .menu__header {
             @include fontstyle('Croissant');
-            margin: 50px 0px 10px;
+            margin: 10vh 0vh 3vh;
 
             h3 {
                 @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
-                font-size: 30px;
+                font-size: 25px;
             }
         }
+        
         /* Couleurs des titres et svg */
         .menu__titre:nth-child(4) {
 
@@ -51,10 +53,6 @@
             color: $variant2-menu2;
         }
         .menu__titre {
-
-            h5 {
-                font-size: 20px;
-            }
 
             /* Animation de souligner */
             &:nth-child(2) h5::after {
