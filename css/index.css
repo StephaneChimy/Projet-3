@@ -236,8 +236,10 @@ body {
 }
 
 .menu {
-  width: 150px;
+  width: 31vw;
+  max-width: 150px;
   height: 31vh;
+  max-height: 220px;
   text-align: center;
   margin-bottom: 4vh;
   margin-left: 3vw;
