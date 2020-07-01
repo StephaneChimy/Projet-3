@@ -7,42 +7,38 @@
 @import "./layout/footer.scss";
 @import "./menu.scss";
 
-
 .container--fullPage {
+  .menu {
+    /* Avec padding = 600px */
+    max-width: 550px;
+    /* Contour décalé */
+    padding: 5vh 5vh 10vh 5vh;
+    /* Couleur background */
+    background-color: $background-color-menu-1;
+    /* font */
+    @include fontstyle("Segoe");
 
-    .menu {
-        /* Avec padding = 600px */
-        max-width: 550px;
-        /* Contour décalé */
-        padding: 5vh 5vh 10vh 5vh;
-        /* Couleur background */
-        background-color: $background-color-menu-1;
-        /* font */
-        @include fontstyle ('Segoe');
+    .menu__header {
+      i {
+        @include textGradient($base-menu1, $base-menu1, $variant1-menu1);
+      }
 
-        .menu__header {
-
-            i {
-                @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
-            }
-
-            h3 {
-                @include fontstyle ('Devonshire');
-            }
-        }
-
-        .menu__footer {
-
-            i {
-                @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
-            }
-
-            h4 {
-                @include fontstyle ('Devonshire');
-                font-weight: inherit;
-                font-size: 25px;
-                margin: 0;
-            }
-        }
+      h3 {
+        @include fontstyle("Devonshire");
+      }
     }
+
+    .menu__footer {
+      i {
+        @include textGradient($base-menu1, $base-menu1, $variant1-menu1);
+      }
+
+      h4 {
+        @include fontstyle("Devonshire");
+        font-weight: inherit;
+        font-size: 25px;
+        margin: 0;
+      }
+    }
+  }
 }
