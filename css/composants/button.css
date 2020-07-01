@@ -12,7 +12,7 @@
 /* Variables du menu 3 */
 /* Variables du menu 4 */
 .container--button {
-  width: 35vw;
+  min-width: 150px;
   max-width: 220px;
 }
 
