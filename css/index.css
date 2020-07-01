@@ -175,8 +175,8 @@ footer a {
 /* Variables du menu 3 */
 /* Variables du menu 4 */
 .container--button {
-  width: 45vw;
-  max-width: 250px;
+  width: 50vw;
+  max-width: 300px;
 }
 
 button {
@@ -221,7 +221,7 @@ button i {
 }
 
 body {
-  background-color: #ECECEC;
+  background-color: #ececec;
 }
 
 .container--fullPage {
@@ -231,24 +231,7 @@ body {
   background-color: white;
   margin-bottom: 5vh;
   height: 100vh;
-  width: 100vw;
-  /* Media querie pour les mobiles */
-  /* @media (min-width:900px) {
-          .menu {
-              max-width: 150px;
-              height: 31vh;
-
-              h3 {
-                  font-size: 15px;
-              }
-
-              &:nth-child(2) {
-                  h3 {
-                      font-size: 10px;
-                  }
-              }
-          }
-      } */
+  /* width: 100vw; */
 }
 
 .firstLine,
@@ -296,10 +279,11 @@ body {
 .menu p {
   font-size: 25px;
 }
-.menu:nth-child(1) {
+
+.firstLine .menu:nth-child(1) {
   background-color: #fcdfdb;
 }
-.menu:nth-child(1) i {
+.firstLine .menu:nth-child(1) i {
   font-size: 1.5em;
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
   background-clip: text;
@@ -309,22 +293,22 @@ body {
   /* Pour ne pas couper la police */
   filter: brightness(1.2);
 }
-.menu:nth-child(1) h3 {
+.firstLine .menu:nth-child(1) h3 {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 1em;
   margin-top: 0;
 }
-.menu:nth-child(1) p {
+.firstLine .menu:nth-child(1) p {
   font-family: "Flow", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 1.2em;
   margin-top: 10px;
 }
-.menu:nth-child(2) {
+.firstLine .menu:nth-child(2) {
   background-color: #FFF5FE;
 }
-.menu:nth-child(2) h3 {
+.firstLine .menu:nth-child(2) h3 {
   font-family: "Croissant", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #c8721f, #a26a95, #6c56c6);
   background-clip: text;
@@ -336,16 +320,17 @@ body {
   font-size: 0.7em;
   font-weight: inherit;
 }
-.menu:nth-child(2) p {
+.firstLine .menu:nth-child(2) p {
   font-weight: bolder;
   color: #c8721f;
   font-size: 1.2em;
   margin-top: 10px;
 }
-.menu:nth-child(3) {
+
+.secondLine .menu:nth-child(1) {
   background-color: #F9F9F9;
 }
-.menu:nth-child(3) h3 {
+.secondLine .menu:nth-child(1) h3 {
   font-family: "Dancing", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #003ad9, #0071e3, #009eed);
   background-clip: text;
@@ -357,16 +342,16 @@ body {
   margin: 0;
   font-size: 17px;
 }
-.menu:nth-child(3) p {
+.secondLine .menu:nth-child(1) p {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   color: #003ad9;
   font-size: 1.2em;
   margin: 0;
 }
-.menu:nth-child(4) {
+.secondLine .menu:nth-child(2) {
   background-color: #FDFFFD;
 }
-.menu:nth-child(4) h3 {
+.secondLine .menu:nth-child(2) h3 {
   font-family: "Kaushan", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #53a14b, #53a14b, #c1fd88);
   background-clip: text;
@@ -378,7 +363,7 @@ body {
   margin: 0;
   font-size: 17px;
 }
-.menu:nth-child(4) p {
+.secondLine .menu:nth-child(2) p {
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   color: #53a14b;
   margin: 0;

@@ -8,159 +8,150 @@
 @import "./composants/button.scss";
 
 body {
-    background-color: #ECECEC;
+  background-color: #ececec;
 }
 
 .container--fullPage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    margin-bottom: 5vh;
-    height: 100vh;
-    width: 100vw;
-
-    /* Media querie pour les mobiles */
-    /* @media (min-width:900px) {
-            .menu {
-                max-width: 150px;
-                height: 31vh;
-
-                h3 {
-                    font-size: 15px;
-                }
-
-                &:nth-child(2) {
-                    h3 {
-                        font-size: 10px;
-                    }
-                }
-            }
-        } */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 5vh;
+  height: 100vh;
+  /* width: 100vw; */
 }
 
 .firstLine,
 .secondLine {
-    display: flex;
+  display: flex;
 }
+
 .menu {
-    width: 150px;
-    height: 31vh;
-    text-align: center;
-    margin-bottom: 4vh;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    /* Ombres sous les menus */
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-    /* Due au fait que les menus soient des liens (changment de couleur) */
-    text-decoration: none;
-    color: inherit;
+  width: 150px;
+  height: 31vh;
+  text-align: center;
+  margin-bottom: 4vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  /* Ombres sous les menus */
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+  /* Due au fait que les menus soient des liens (changment de couleur) */
+  text-decoration: none;
+  color: inherit;
+  /* Zoom */
+  transition: (0.4s);
+  overflow: hidden;
+  /* Pour ne pas dépasser du cadre */
+
+  .zoom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     /* Zoom */
     transition: (0.4s);
-    overflow: hidden;
-    /* Pour ne pas dépasser du cadre */
+  }
 
-    .zoom {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        /* Zoom */
-        transition: (0.4s);
-    }
+  /* Zoom */
+  .zoom:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+    background: rgba($color: white, $alpha: 0.3);
+  }
 
-    /* Zoom */
-    .zoom:hover {
-        transform: scale(1.2);
-        opacity: 0.5;
-        background: rgba($color: white, $alpha: 0.3)
-    }
+  h3 {
+    margin: 0;
+    font-size: 25px;
+  }
 
-    h3 {
-        margin: 0;
-        font-size: 25px;
-    }
+  p {
+    font-size: 25px;
+  }
+}
 
-    p {
-        font-size: 25px;
-    }
-
+.firstLine {
+  .menu {
     &:nth-child(1) {
-        @include backgroundMenu;
+      @include backgroundMenu;
 
-        i {
-            font-size: 1.5em;
-            @include textGradient ($base-menu1, $base-menu1, $variant1-menu1);
-        }
+      i {
+        font-size: 1.5em;
+        @include textGradient($base-menu1, $base-menu1, $variant1-menu1);
+      }
 
-        h3 {
-            @include fontstyle ("Devonshire");
-            font-weight: lighter;
-            font-size: 1em;
-            margin-top: 0;
-        }
+      h3 {
+        @include fontstyle("Devonshire");
+        font-weight: lighter;
+        font-size: 1em;
+        margin-top: 0;
+      }
 
-        p {
-            @include fontstyle ("Flow");
-            text-transform: uppercase;
-            font-size: 1.2em;
-            margin-top: 10px;
-        }
+      p {
+        @include fontstyle("Flow");
+        text-transform: uppercase;
+        font-size: 1.2em;
+        margin-top: 10px;
+      }
     }
 
     &:nth-child(2) {
-        @include backgroundMenu($background-color-menu-2);
+      @include backgroundMenu($background-color-menu-2);
 
-        h3 {
-            @include fontstyle ("Croissant");
-            @include textGradient ($base-menu2, $variant1-menu2, $variant2-menu2);
-            font-size: 0.7em;
-            font-weight: inherit;
-        }
+      h3 {
+        @include fontstyle("Croissant");
+        @include textGradient($base-menu2, $variant1-menu2, $variant2-menu2);
+        font-size: 0.7em;
+        font-weight: inherit;
+      }
 
-        p {
-            font-weight: bolder;
-            color: $base-menu2;
-            font-size: 1.2em;
-            margin-top: 10px;
-        }
+      p {
+        font-weight: bolder;
+        color: $base-menu2;
+        font-size: 1.2em;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.secondLine {
+  .menu {
+    &:nth-child(1) {
+      @include backgroundMenu($background-color-menu-3);
+
+      h3 {
+        @include fontstyle("Dancing");
+        @include textGradient($base-menu3, $variant1-menu3, $variant2-menu3);
+        margin: 0;
+        font-size: 17px;
+      }
+
+      p {
+        @include fontstyle("Segoe");
+        color: $base-menu3;
+        font-size: 1.2em;
+        margin: 0;
+      }
     }
 
-    &:nth-child(3) {
-        @include backgroundMenu($background-color-menu-3);
+    &:nth-child(2) {
+      @include backgroundMenu($background-color-menu-4);
 
-        h3 {
-            @include fontstyle ("Dancing");
-            @include textGradient ($base-menu3, $variant1-menu3, $variant2-menu3);
-            margin: 0;
-            font-size: 17px;
-        }
+      h3 {
+        @include fontstyle("Kaushan");
+        @include textGradient($base-menu4, $base-menu4, $variant1-menu4);
+        margin: 0;
+        font-size: 17px;
+      }
 
-        p {
-            @include fontstyle ("Segoe");
-            color: $base-menu3;
-            font-size: 1.2em;
-            margin: 0;
-        }
+      p {
+        @include fontstyle("Segoe");
+        color: $base-menu4;
+        margin: 0;
+        font-size: 1.2em;
+      }
     }
-
-    &:nth-child(4) {
-        @include backgroundMenu($background-color-menu-4);
-
-        h3 {
-            @include fontstyle ("Kaushan");
-            @include textGradient ($base-menu4, $base-menu4, $variant1-menu4);
-            margin: 0;
-            font-size: 17px;
-        }
-
-        p {
-            @include fontstyle ("Segoe");
-            color: $base-menu4;
-            margin: 0;
-            font-size: 1.2em;
-        }
-    }
+  }
 }
