@@ -7,34 +7,31 @@
 @import "./layout/footer.scss";
 @import "./menu.scss";
 
-.container--fullPage{
+.container--fullPage {
+  .menu {
+    align-items: center;
+    /* Background color */
+    @include backgroundMenu($background-color-menu-3);
+    /* font family */
+    @include fontstyle("Segoe");
+    padding-bottom: 10vh;
 
-    .menu{
-        align-items: center;
-        @include backgroundMenu($background-color-menu-3);
-        @include fontstyle ('Segoe');
-        font-size: 13px;
-        padding-bottom: 50px;
+    .menu__header {
+      @include fontstyle("Dancing");
+      font-size: 40px;
 
-        .menu__header{
-            @include fontstyle('Dancing');
-            font-size: 40px;
+      h3 {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        @include textGradient($base-menu3, $variant1-menu3, $variant2-menu3);
+      }
+    }
 
-            h3{
-                margin-top: 50px;
-                margin-bottom: 20px;
-                @include textGradient ($base-menu3, $variant1-menu3, $variant2-menu3);
-            }
-        }
-        .menu__titre{
-            width: 95%;
-            align-items: baseline;
-            
-            h5{
-                font-size: 15px;
-            }
-            
-            /*.parallelogramme{
+    .menu__titre {
+      width: 95%;
+      align-items: baseline;
+
+      /*.parallelogramme{
                 width: 30%;
                 height: 5px;
                 transform: skew(50deg);
@@ -48,9 +45,9 @@
                 background: $base-menu3;
                 margin-right: 1.5%;
               } */
-        }
+    }
 
-        /* .menu__titre:nth-child(4) .parallelogramme, .menu__titre:nth-child(4) .parallelogramme2 {
+    /* .menu__titre:nth-child(4) .parallelogramme, .menu__titre:nth-child(4) .parallelogramme2 {
             background: $variant1-menu3;
             
         }
@@ -58,20 +55,20 @@
             background: $variant2-menu3;
         } */
 
-        /* Couleurs des svg */
-        .menu__titre{
-            fill: $base-menu3;
-        }
-
-        .menu__titre:nth-child(4) {
-            fill: $variant1-menu3;
-        }
-
-        .menu__titre:nth-child(6) {
-            fill: $variant2-menu3;
-        }
-        .menu__corps{
-            width: 80%;
-        }   
+    /* Couleurs des svg */
+    .menu__titre {
+      fill: $base-menu3;
     }
+
+    .menu__titre:nth-child(4) {
+      fill: $variant1-menu3;
+    }
+
+    .menu__titre:nth-child(6) {
+      fill: $variant2-menu3;
+    }
+    .menu__corps {
+      width: 80%;
+    }
+  }
 }
