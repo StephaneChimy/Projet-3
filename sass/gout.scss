@@ -3,9 +3,9 @@
 //* Variables / mixins / layout */
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
-@import "./menu.scss";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./menu";
 
 .container--fullPage {
   .menu {
