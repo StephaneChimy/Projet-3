@@ -1,3 +1,4 @@
+// Partial pour les mixins //
 @mixin backgroundMenu($colour: $background-color-menu-1) {
   background-color: $colour;
 }
@@ -21,6 +22,6 @@
   -webkit-background-clip: text;
   color: transparent;
   padding: 5px;
-  /* Pour ne pas couper la police */
+  //* Pour ne pas couper la police */
   filter: brightness(1.2);
 }

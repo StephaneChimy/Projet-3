@@ -1,6 +1,6 @@
-/* Menus */
+//* Spécificités du menu paipilles */
 
-/* Variables / mixins / layout */
+//* Imports */
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./layout/header.scss";
@@ -10,9 +10,9 @@
 .container--fullPage {
   .menu {
     align-items: center;
-    /* Background color */
+    //* Background color */
     @include backgroundMenu($background-color-menu-3);
-    /* font family */
+    //* font family */
     @include fontstyle("Segoe");
     padding-bottom: 10vh;
 
@@ -31,31 +31,33 @@
       width: 95%;
       align-items: baseline;
 
-      /*.parallelogramme{
-                width: 30%;
-                height: 5px;
-                transform: skew(50deg);
-                background: $base-menu3;
-                margin-right: 1.5%;
-              }
-              .parallelogramme2{
-                width: 30%;
-                height: 5px;
-                transform: skew(-50deg);
-                background: $base-menu3;
-                margin-right: 1.5%;
-              } */
+      // Test d'un dessin fait en CSS
+      //
+      //  /*.parallelogramme{
+      //            width: 30%;
+      //            height: 5px;
+      //            transform: skew(50deg);
+      //            background: $base-menu3;
+      //            margin-right: 1.5%;
+      //          }
+      //          .parallelogramme2{
+      //            width: 30%;
+      //            height: 5px;
+      //            transform: skew(-50deg);
+      //            background: $base-menu3;
+      //            margin-right: 1.5%;
+      //          } */
     }
 
-    /* .menu__titre:nth-child(4) .parallelogramme, .menu__titre:nth-child(4) .parallelogramme2 {
-            background: $variant1-menu3;
-            
-        }
-        .menu__titre:nth-child(6) .parallelogramme, .menu__titre:nth-child(6) .parallelogramme2 {
-            background: $variant2-menu3;
-        } */
+    ///* .menu__titre:nth-child(4) .parallelogramme, .menu__titre:nth-child(4) .parallelogramme2 {
+    //        background: $variant1-menu3;
+    //
+    //    }
+    //    .menu__titre:nth-child(6) .parallelogramme, .menu__titre:nth-child(6) .parallelogramme2 {
+    //        background: $variant2-menu3;
+    //    } */
 
-    /* Couleurs des svg */
+    //* Couleurs des svg */
     .menu__titre {
       fill: $base-menu3;
     }

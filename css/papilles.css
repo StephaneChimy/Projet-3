@@ -1,28 +1,3 @@
-@charset "UTF-8";
-/* Menus */
-/* Variables / mixins / layout */
-/* Header */
-/*Background menus */
-/* Menus font colors */
-/* hsl(14.3, 91.1%, 69.2%) */
-/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
-/* hsl(90.5, 96.7%, 76.1%) */
-/** 2 variables par menu **/
-/* 1 Variable du menu 1 (les icons) */
-/* Variables du menu 2 */
-/* Variables du menu 3 */
-/* Variables du menu 4 */
-/* Header */
-/*Background menus */
-/* Menus font colors */
-/* hsl(14.3, 91.1%, 69.2%) */
-/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
-/* hsl(90.5, 96.7%, 76.1%) */
-/** 2 variables par menu **/
-/* 1 Variable du menu 1 (les icons) */
-/* Variables du menu 2 */
-/* Variables du menu 3 */
-/* Variables du menu 4 */
 @font-face {
   font-family: "Trueno";
   font-style: normal;
@@ -73,18 +48,6 @@ header img {
   width: 150px;
 }
 
-/* Variables */
-/* Header */
-/*Background menus */
-/* Menus font colors */
-/* hsl(14.3, 91.1%, 69.2%) */
-/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
-/* hsl(90.5, 96.7%, 76.1%) */
-/** 2 variables par menu **/
-/* 1 Variable du menu 1 (les icons) */
-/* Variables du menu 2 */
-/* Variables du menu 3 */
-/* Variables du menu 4 */
 footer {
   width: 100%;
   height: 6vh;
@@ -110,47 +73,29 @@ footer nav ul li {
   margin-left: 2%;
   margin-right: 2%;
   font-size: 15px;
-  /* Détails de l'animation */
 }
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
   }
-  /* 10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  } */
   20% {
     transform: translate(-3px, 0px) rotate(1deg);
   }
-  /* 30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  } */
   40% {
     transform: translate(1px, -1px) rotate(1deg);
   }
-  /* 50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  } */
   60% {
     transform: translate(-3px, 1px) rotate(0deg);
   }
-  /* 70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  } */
   80% {
     transform: translate(-1px, -1px) rotate(1deg);
   }
-  /* 90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  } */
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
 footer nav ul li:hover {
-  /* démarre l'animation shake et dure 0.5 secondes */
   animation: shake 0.5s;
-  /* Fait touner l'animation indéfiniment */
   animation-iteration-count: infinite;
 }
 footer a {
@@ -158,19 +103,6 @@ footer a {
   color: inherit;
 }
 
-/** Structure de base **/
-/* Imports */
-/* Header */
-/*Background menus */
-/* Menus font colors */
-/* hsl(14.3, 91.1%, 69.2%) */
-/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
-/* hsl(90.5, 96.7%, 76.1%) */
-/** 2 variables par menu **/
-/* 1 Variable du menu 1 (les icons) */
-/* Variables du menu 2 */
-/* Variables du menu 3 */
-/* Variables du menu 4 */
 body {
   background-color: #ececec;
 }
@@ -182,7 +114,6 @@ body {
   flex-wrap: wrap;
   margin: auto;
   background-color: white;
-  /* Media querie pour mobile */
 }
 .container--fullPage .nomRestaurant {
   font-size: 15px;
@@ -193,11 +124,9 @@ body {
   flex-direction: column;
   max-width: 600px;
   margin-bottom: 10vh;
-  /* Ombre des menus */
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-  /* font */
   font-size: 12px;
 }
 .container--fullPage .menu .menu__header {
@@ -219,8 +148,6 @@ body {
   align-items: center;
   text-align: center;
   font-size: 20px;
-  /* Animation de souligner */
-  /* Le background du pseudo élément prend une taille de 100% */
 }
 .container--fullPage .menu .menu__titre h5::after {
   content: "";
@@ -271,19 +198,9 @@ body {
 
 .container--fullPage .menu {
   align-items: center;
-  /* Background color */
   background-color: #f9f9f9;
-  /* font family */
   font-family: "Segoe", Arial, Helvetica, sans-serif;
   padding-bottom: 10vh;
-  /* .menu__titre:nth-child(4) .parallelogramme, .menu__titre:nth-child(4) .parallelogramme2 {
-          background: $variant1-menu3;
-
-      }
-      .menu__titre:nth-child(6) .parallelogramme, .menu__titre:nth-child(6) .parallelogramme2 {
-          background: $variant2-menu3;
-      } */
-  /* Couleurs des svg */
 }
 .container--fullPage .menu .menu__header {
   font-family: "Dancing", Arial, Helvetica, sans-serif;
@@ -297,26 +214,11 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   padding: 5px;
-  /* Pour ne pas couper la police */
   filter: brightness(1.2);
 }
 .container--fullPage .menu .menu__titre {
   width: 95%;
   align-items: baseline;
-  /*.parallelogramme{
-            width: 30%;
-            height: 5px;
-            transform: skew(50deg);
-            background: $base-menu3;
-            margin-right: 1.5%;
-          }
-          .parallelogramme2{
-            width: 30%;
-            height: 5px;
-            transform: skew(-50deg);
-            background: $base-menu3;
-            margin-right: 1.5%;
-          } */
 }
 .container--fullPage .menu .menu__titre {
   fill: #003ad9;

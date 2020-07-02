@@ -1,6 +1,6 @@
-/* Menus */
+//* Spécificités du menu chic */
 
-/* Variables / mixins / layout */
+//* Imports */
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./layout/header.scss";
@@ -11,11 +11,11 @@
   .menu {
     max-width: 600px;
     align-items: center;
-    /* Background color */
+    //* Background color */
     @include backgroundMenu($background-color-menu-2);
     letter-spacing: 0.5px;
     padding-bottom: 50px;
-    /* Couleurs typo + svg */
+    //* Couleurs typo + svg */
     color: $base-menu2;
     fill: $base-menu2;
 
@@ -29,7 +29,7 @@
       }
     }
 
-    /* Couleurs des titres et svg */
+    //* Couleurs des titres et svg */
     .menu__titre:nth-child(4) {
       color: $variant1-menu2;
       fill: $variant1-menu2;
@@ -48,7 +48,7 @@
       color: $variant2-menu2;
     }
     .menu__titre {
-      /* Animation de souligner */
+      //* Animation de souligner */
       &:nth-child(2) h5::after {
         content: "";
         display: block;
@@ -76,7 +76,7 @@
         transition: width 0.3s;
       }
 
-      /* Le background du pseudo élément prend une taille de 100% */
+      //* Le background du pseudo élément prend une taille de 100% */
       & h5:hover::after {
         width: 100%;
       }

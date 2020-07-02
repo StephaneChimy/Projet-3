@@ -1,6 +1,6 @@
-/* Spécifications menu enchantee  */
+//* Spécifications du menu enchantee  */
 
-/* Variables */
+//* Variables */
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./layout/header.scss";
@@ -9,13 +9,13 @@
 
 .container--fullPage {
   .menu {
-    /* Avec padding = 600px */
+    //* Avec padding = 600px */
     max-width: 550px;
-    /* Contour décalé */
+    //* Contour décalé */
     padding: 5vh 5vh 10vh 5vh;
-    /* Couleur background */
+    //* Couleur background */
     background-color: $background-color-menu-1;
-    /* font */
+    //* font */
     @include fontstyle("Segoe");
 
     .menu__header {

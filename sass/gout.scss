@@ -1,6 +1,6 @@
-/* Menus */
+//* Spécificités du menu gout */
 
-/* Variables / mixins / layout */
+//* Variables / mixins / layout */
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./layout/header.scss";
@@ -10,12 +10,12 @@
 .container--fullPage {
   .menu {
     align-items: center;
-    /* background color */
+    //* background color */
     @include backgroundMenu($background-color-menu-4);
     @include fontstyle("Segoe");
     padding-bottom: 10vh;
 
-    /* Couleur Gradient */
+    //* Couleur Gradient */
     .svg--stop1 {
       stop-color: $base-menu4;
     }
@@ -24,15 +24,18 @@
       stop-color: $variant1-menu4;
     }
 
-    /* .menu__titre:nth-child(2) {
-            fill: $base-menu4;
-        }
-        .menu__titre:nth-child(4) {
-            fill: $variant1-menu4;
-        }
-        .menu__titre:nth-child(6) {
-            fill: $variant1-menu4;
-        } */
+    // Utilisation uniquement pour les parallelogrammes
+    //
+    // /* .menu__titre:nth-child(2) {
+    //         fill: $base-menu4;
+    //     }
+    //     .menu__titre:nth-child(4) {
+    //         fill: $variant1-menu4;
+    //     }
+    //     .menu__titre:nth-child(6) {
+    //         fill: $variant1-menu4;
+    //     } */
+
     .menu__header {
       @include fontstyle("kaushan");
       padding-top: 5vh;
@@ -46,7 +49,7 @@
     }
 
     .menu__titre {
-      /* Animation de souligner */
+      //* Animation de souligner */
       & h5::after {
         content: "";
         display: block;
@@ -56,7 +59,7 @@
         transition: width 0.3s;
       }
 
-      /* Le background du pseudo élément prend une taille de 100% */
+      //* Le background du pseudo élément prend une taille de 100% */
       & h5:hover::after {
         width: 100%;
       }

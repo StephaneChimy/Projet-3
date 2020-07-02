@@ -1,16 +1,3 @@
-@charset "UTF-8";
-/* Variables */
-/* Header */
-/*Background menus */
-/* Menus font colors */
-/* hsl(14.3, 91.1%, 69.2%) */
-/* variante 1 voulue = hsl(313.8, 25.3%, 52.7%) // variante 2 voulue: hsl(251.4, 51.3%, 55.7%) */
-/* hsl(90.5, 96.7%, 76.1%) */
-/** 2 variables par menu **/
-/* 1 Variable du menu 1 (les icons) */
-/* Variables du menu 2 */
-/* Variables du menu 3 */
-/* Variables du menu 4 */
 footer {
   width: 100%;
   height: 6vh;
@@ -36,47 +23,29 @@ footer nav ul li {
   margin-left: 2%;
   margin-right: 2%;
   font-size: 15px;
-  /* Détails de l'animation */
 }
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
   }
-  /* 10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  } */
   20% {
     transform: translate(-3px, 0px) rotate(1deg);
   }
-  /* 30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  } */
   40% {
     transform: translate(1px, -1px) rotate(1deg);
   }
-  /* 50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  } */
   60% {
     transform: translate(-3px, 1px) rotate(0deg);
   }
-  /* 70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  } */
   80% {
     transform: translate(-1px, -1px) rotate(1deg);
   }
-  /* 90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  } */
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
 footer nav ul li:hover {
-  /* démarre l'animation shake et dure 0.5 secondes */
   animation: shake 0.5s;
-  /* Fait touner l'animation indéfiniment */
   animation-iteration-count: infinite;
 }
 footer a {
