@@ -3,9 +3,9 @@
 //* Imports */
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
-@import "./composants/button.scss";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./composants/button";
 
 body {
   background-color: #ececec;
