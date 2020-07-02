@@ -185,19 +185,25 @@ button {
   color: #fcca46;
   font-size: 1em;
 }
+button:hover {
+  /* @keyframes bounce {
+    30% {
+      transform: scaleY(0.5) scaleX(1.5);
+    }
+    90% {
+      transform: translateY(-10px) scaleY(1.2) scaleX(0.9);
+    }
+  } */
+}
 @keyframes bounce {
   0% {
     transform: translateY(0px);
-    /* transform: scaleY(0.5) scaleX(1.5); */
   }
   20% {
     transform: translateY(-10px);
   }
   40% {
     transform: translateY(0px);
-  }
-  90% {
-    /* transform: translateY(-10px) scaleY(1.2) scaleX(0.9); */
   }
 }
 button:hover i:nth-child(1) {

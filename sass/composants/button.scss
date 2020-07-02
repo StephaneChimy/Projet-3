@@ -20,18 +20,22 @@ button {
     @keyframes bounce {
       0% {
         transform: translateY(0px);
-        /* transform: scaleY(0.5) scaleX(1.5); */
       }
-      20%{
+      20% {
         transform: translateY(-10px);
       }
-      40%{
+      40% {
         transform: translateY(0px);
       }
-      90% {
-        /* transform: translateY(-10px) scaleY(1.2) scaleX(0.9); */
-      }
     }
+    /* @keyframes bounce {
+      30% {
+        transform: scaleY(0.5) scaleX(1.5);
+      }
+      90% {
+        transform: translateY(-10px) scaleY(1.2) scaleX(0.9);
+      }
+    } */
 
     i:nth-child(1) {
       animation: bounce 2s;
