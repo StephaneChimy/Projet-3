@@ -1,10 +1,10 @@
 //* Spécifications du menu enchantee  */
 
 //* Variables */
-@import "./utils/variables";
-@import "./utils/mixins";
-@import "./layout/header";
-@import "./layout/footer";
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "./header";
+@import "./footer";
 @import "./menu";
 
 .container--fullPage {
