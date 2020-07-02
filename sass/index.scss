@@ -4,8 +4,9 @@
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./layout/header";
-@import "./layout/footer";
 @import "./composants/button";
+@import "./layout/footer";
+
 
 body {
   background-color: #ececec;
