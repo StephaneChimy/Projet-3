@@ -27,16 +27,6 @@
           transform: translateY(0px);
         }
       }
-      // Animation des points type mini burgers //
-      //
-      // @keyframes bounce {
-      //  30% {
-      //    transform: scaleY(0.5) scaleX(1.5);
-      //  }
-      //  90% {
-      //    transform: translateY(-10px) scaleY(1.2) scaleX(0.9);
-      //  }
-      // }
 
       i:nth-child(1) {
         animation: bounce 2s;
