@@ -21,7 +21,7 @@
     fill: $base-menu2;
 
     .menu__header {
-      @include fontstyle("Croissant");
+      @include fontstyle("CroissantMenu");
       margin: 10vh 0vh 3vh;
 
       h3 {

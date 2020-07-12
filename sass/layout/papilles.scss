@@ -13,11 +13,11 @@
     //* Background color */
     @include backgroundMenu($background-color-menu-3);
     //* font family */
-    @include fontstyle("Segoe");
+    @include fontstyle("SegoeMenu");
     padding-bottom: 10vh;
 
     .menu__header {
-      @include fontstyle("Dancing");
+      @include fontstyle("DancingMenu");
       font-size: 40px;
 
       h3 {

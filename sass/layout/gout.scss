@@ -12,7 +12,7 @@
     align-items: center;
     //* background color */
     @include backgroundMenu($background-color-menu-4);
-    @include fontstyle("Segoe");
+    @include fontstyle("SegoeMenu");
     padding-bottom: 10vh;
 
     //* Couleur Gradient */
@@ -25,7 +25,7 @@
     }
 
     .menu__header {
-      @include fontstyle("kaushan");
+      @include fontstyle("kaushanMenu");
       padding-top: 5vh;
       padding-bottom: 3vh;
 
