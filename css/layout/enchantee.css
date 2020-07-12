@@ -1,35 +1,70 @@
 @font-face {
   font-family: "Trueno";
   font-style: normal;
+  src: url("../fonts/Trueno/truenorg.ttf");
+}
+@font-face {
+  font-family: "TruenoMenu";
+  font-style: normal;
   src: url("../../fonts/Trueno/truenorg.ttf");
 }
 @font-face {
   font-family: "Devonshire";
+  font-style: normal;
+  src: url("../fonts/Devonshire/Devonshire-Regular.ttf");
+}
+@font-face {
+  font-family: "DevonshireMenu";
   font-style: normal;
   src: url("../../fonts/Devonshire/Devonshire-Regular.ttf");
 }
 @font-face {
   font-family: "Flow";
   font-style: normal;
+  src: url("../fonts/Flow/flow_b.ttf");
+}
+@font-face {
+  font-family: "FlowMenu";
+  font-style: normal;
   src: url("../../fonts/Flow/flow_b.ttf");
 }
 @font-face {
   font-family: "Croissant";
+  font-style: normal;
+  src: url("../fonts/Croissant/CroissantOne-Regular.ttf");
+}
+@font-face {
+  font-family: "CroissantMenu";
   font-style: normal;
   src: url("../../fonts/Croissant/CroissantOne-Regular.ttf");
 }
 @font-face {
   font-family: "Dancing";
   font-style: normal;
+  src: url("../fonts/Dancing/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "DancingMenu";
+  font-style: normal;
   src: url("../../fonts/Dancing/DancingScript-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "Segoe";
   font-style: normal;
+  src: url("../fonts/Segoe/segoepr.ttf");
+}
+@font-face {
+  font-family: "SegoeMenu";
+  font-style: normal;
   src: url("../../fonts/Segoe/segoepr.ttf");
 }
 @font-face {
   font-family: "Kaushan";
+  font-style: normal;
+  src: url("../fonts/Kaushan/kaushanscript-regular.ttf");
+}
+@font-face {
+  font-family: "KaushanMenu";
   font-style: normal;
   src: url("../../fonts/Kaushan/kaushanscript-regular.ttf");
 }
@@ -200,7 +235,7 @@ footer a {
   max-width: 550px;
   padding: 5vh 5vh 10vh 5vh;
   background-color: #fcdfdb;
-  font-family: "Segoe", Arial, Helvetica, sans-serif;
+  font-family: "SegoeMenu", Arial, Helvetica, sans-serif;
 }
 .container--fullPage .menu .menu__header i {
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
@@ -211,7 +246,7 @@ footer a {
   filter: brightness(1.2);
 }
 .container--fullPage .menu .menu__header h3 {
-  font-family: "Devonshire", Arial, Helvetica, sans-serif;
+  font-family: "DevonshireMenu", Arial, Helvetica, sans-serif;
 }
 .container--fullPage .menu .menu__footer i {
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
@@ -222,7 +257,7 @@ footer a {
   filter: brightness(1.2);
 }
 .container--fullPage .menu .menu__footer h4 {
-  font-family: "Devonshire", Arial, Helvetica, sans-serif;
+  font-family: "DevonshireMenu", Arial, Helvetica, sans-serif;
   font-weight: inherit;
   font-size: 25px;
   margin: 0;

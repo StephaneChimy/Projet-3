@@ -1,35 +1,70 @@
 @font-face {
   font-family: "Trueno";
   font-style: normal;
+  src: url("../fonts/Trueno/truenorg.ttf");
+}
+@font-face {
+  font-family: "TruenoMenu";
+  font-style: normal;
   src: url("../../fonts/Trueno/truenorg.ttf");
 }
 @font-face {
   font-family: "Devonshire";
+  font-style: normal;
+  src: url("../fonts/Devonshire/Devonshire-Regular.ttf");
+}
+@font-face {
+  font-family: "DevonshireMenu";
   font-style: normal;
   src: url("../../fonts/Devonshire/Devonshire-Regular.ttf");
 }
 @font-face {
   font-family: "Flow";
   font-style: normal;
+  src: url("../fonts/Flow/flow_b.ttf");
+}
+@font-face {
+  font-family: "FlowMenu";
+  font-style: normal;
   src: url("../../fonts/Flow/flow_b.ttf");
 }
 @font-face {
   font-family: "Croissant";
+  font-style: normal;
+  src: url("../fonts/Croissant/CroissantOne-Regular.ttf");
+}
+@font-face {
+  font-family: "CroissantMenu";
   font-style: normal;
   src: url("../../fonts/Croissant/CroissantOne-Regular.ttf");
 }
 @font-face {
   font-family: "Dancing";
   font-style: normal;
+  src: url("../fonts/Dancing/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "DancingMenu";
+  font-style: normal;
   src: url("../../fonts/Dancing/DancingScript-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "Segoe";
   font-style: normal;
+  src: url("../fonts/Segoe/segoepr.ttf");
+}
+@font-face {
+  font-family: "SegoeMenu";
+  font-style: normal;
   src: url("../../fonts/Segoe/segoepr.ttf");
 }
 @font-face {
   font-family: "Kaushan";
+  font-style: normal;
+  src: url("../fonts/Kaushan/kaushanscript-regular.ttf");
+}
+@font-face {
+  font-family: "KaushanMenu";
   font-style: normal;
   src: url("../../fonts/Kaushan/kaushanscript-regular.ttf");
 }
@@ -199,7 +234,7 @@ footer a {
 .container--fullPage .menu {
   align-items: center;
   background-color: #fdfffd;
-  font-family: "Segoe", Arial, Helvetica, sans-serif;
+  font-family: "SegoeMenu", Arial, Helvetica, sans-serif;
   padding-bottom: 10vh;
 }
 .container--fullPage .menu .svg--stop1 {
@@ -209,7 +244,7 @@ footer a {
   stop-color: #c1fd88;
 }
 .container--fullPage .menu .menu__header {
-  font-family: "kaushan", Arial, Helvetica, sans-serif;
+  font-family: "kaushanMenu", Arial, Helvetica, sans-serif;
   padding-top: 5vh;
   padding-bottom: 3vh;
 }
