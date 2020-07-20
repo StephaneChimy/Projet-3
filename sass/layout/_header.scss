@@ -8,13 +8,13 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 2vh;
-  height: 10vh;
+  height: 11vh;
   margin-bottom: 4vh;
   width: 100%;
   background-color: $header-background-color;
   @include fontstyle("Trueno");
 
   img {
-    width: 150px;
+    height: 7vh;
   }
 }
