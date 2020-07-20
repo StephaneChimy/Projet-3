@@ -250,7 +250,7 @@ body {
 .firstLine .menu:nth-child(1) h3 {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 0.9em;
   margin-top: 0;
 }
 .firstLine .menu:nth-child(1) p {
