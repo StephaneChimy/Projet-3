@@ -24,7 +24,7 @@
         @include textGradient($base-menu1, $base-menu1, $variant1-menu1);
       }
 
-      h3 {
+      h2 {
         @include fontstyle("DevonshireMenu");
       }
     }
@@ -34,10 +34,10 @@
         @include textGradient($base-menu1, $base-menu1, $variant1-menu1);
       }
 
-      h4 {
+      h3 {
         @include fontstyle("DevonshireMenu");
         font-weight: inherit;
-        font-size: 25px;
+        font-size: 30px;
         margin: 0;
       }
     }

@@ -16,7 +16,7 @@ body {
   background-color: white;
 
   .nomRestaurant {
-    font-size: 15px;
+    font-size: 12px;
     font-family: sans-serif;
   }
 
@@ -41,7 +41,7 @@ body {
         font-size: 55px;
       }
 
-      h3 {
+      h2 {
         font-size: 35px;
         font-weight: inherit;
         margin: 0;
@@ -56,7 +56,7 @@ body {
       font-size: 20px;
 
       //* Animation de souligner */
-      & h5::after {
+      & h4::after {
         content: "";
         display: block;
         width: 0;
@@ -66,7 +66,7 @@ body {
       }
 
       //* Le background du pseudo élément prend une taille de 100% */
-      & h5:hover::after {
+      & h4:hover::after {
         width: 100%;
       }
 
@@ -89,6 +89,8 @@ body {
 
         .menu__prix {
           flex: 1;
+          font-weight: bold;
+          font-size: 3vh;
         }
       }
     }
