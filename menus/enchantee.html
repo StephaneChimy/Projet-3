@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/layout/enchantee.css"/>
+    <link rel="stylesheet" href="../css/layout/enchantee.css" />
     <!-- Ajout du CDN Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
@@ -16,142 +16,140 @@
     <title>La note enchantée</title>
 </head>
 
-<body>
-    <div class="container--fullPage">
-        <header class="header--fullPage">
-            <a href="../index.html"><img src="../images/Logo-ohmyfood.png" alt="Logo ohmyfood"></a>
-        </header>
+<body class="container--fullPage">
+    <header class="header--fullPage">
+        <a href="../index.html"><img src="../images/Logo-ohmyfood.png" alt="Logo ohmyfood"></a>
+    </header>
 
-        <div class="nomRestaurant">
-            <h2>La note enchantée</h2>
+    <div class="nomRestaurant">
+        <h2>La note enchantée</h2>
+    </div>
+
+    <section class="menu">
+        <div class="menu__header">
+            <i class="fas fa-music"></i>
+            <h3>La note enchantée</h3>
         </div>
 
-        <section class="menu">
-            <div class="menu__header">
-                <i class="fas fa-music"></i>
-                <h3>La note enchantée</h3>
+        <div class="menu__titre">
+            <svg class="menu__titre--ligneGauche" width="30%" height="30%" viewBox="0 0 400 105.3">
+                <path
+                    d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
+            </svg>
+
+            <h5>Prélude</h5>
+
+            <svg class="menu__titre--ligneDroite" width="30%" height="30%" viewBox="0 0 400 105.3">
+                <path
+                    d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
+            </svg>
+        </div>
+
+        <div id="entrees" class="menu__corps">
+            <div class="menu__choix">
+                <div class="plats">Ravioles de foie gras accompagnés de leurs crème à la truffe</div>
+                <div class="prix">98€</div>
             </div>
 
-            <div class="menu__titre">
-                <svg class="menu__titre--ligneGauche" width="30%" height="30%" viewBox="0 0 400 105.3">
-                    <path
-                        d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
-                </svg>
-
-                <h5>Prélude</h5>
-
-                <svg class="menu__titre--ligneDroite" width="30%" height="30%" viewBox="0 0 400 105.3">
-                    <path
-                        d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
-                </svg>
+            <div class="menu__choix">
+                <div class="plats">Caviar osciètre sur blini à la farine de blé noir</div>
+                <div class="prix">115€</div>
             </div>
 
-            <div id="entrees" class="menu__corps">
-                <div class="menu__choix">
-                    <div class="plats">Ravioles de foie gras accompagnés de leurs crème à la truffe</div>
-                    <div class="prix">98€</div>
-                </div>
-
-                <div class="menu__choix">
-                    <div class="plats">Caviar osciètre sur blini à la farine de blé noir</div>
-                    <div class="prix">115€</div>
-                </div>
-
-                <div class="menu__choix">
-                    <div class="plats">Homard et espuma de potiron mariné aux zests d'orange</div>
-                    <div class="prix">89€</div>
-                </div>
-
-                <div class="menu__choix">
-                    <div class="plats">Foie grans de canard cuit entier, confiture de figue et pain toasté</div>
-                    <div class="prix">105€</div>
-                </div>
-
+            <div class="menu__choix">
+                <div class="plats">Homard et espuma de potiron mariné aux zests d'orange</div>
+                <div class="prix">89€</div>
             </div>
 
-            <div class="menu__titre">
-                <svg class="menu__titre--ligneGauche" width="30%" height="30%" viewBox="0 0 400 105.3">
-                    <path
-                        d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
-                </svg>
-
-                <h5>Point d'orgue</h5>
-
-                <svg class="menu__titre--ligneDroite" width="30%" height="30%" viewBox="0 0 400 105.3">
-                    <path
-                        d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
-                </svg>
+            <div class="menu__choix">
+                <div class="plats">Foie grans de canard cuit entier, confiture de figue et pain toasté</div>
+                <div class="prix">105€</div>
             </div>
 
-            <div id="plats" class="menu__corps">
-                <div class="menu__choix">
-                    <div class="plats">Noix de coquilles Saint-Jacques sur lit de purée célerie-rave</div>
-                    <div class="prix">102€</div>
-                </div>
+        </div>
 
-                <div class="menu__choix">
-                    <div class="plats">Langoustine poêlée, purée de patate douce</div>
-                    <div class="prix">205€</div>
-                </div>
+        <div class="menu__titre">
+            <svg class="menu__titre--ligneGauche" width="30%" height="30%" viewBox="0 0 400 105.3">
+                <path
+                    d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
+            </svg>
 
-                <div class="menu__choix">
-                    <div class="plats">Mijoté de queue de boeuf et riz sauvage au zests de citron</div>
-                    <div class="prix">169€</div>
-                </div>
+            <h5>Point d'orgue</h5>
 
+            <svg class="menu__titre--ligneDroite" width="30%" height="30%" viewBox="0 0 400 105.3">
+                <path
+                    d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
+            </svg>
+        </div>
+
+        <div id="plats" class="menu__corps">
+            <div class="menu__choix">
+                <div class="plats">Noix de coquilles Saint-Jacques sur lit de purée célerie-rave</div>
+                <div class="prix">102€</div>
             </div>
 
-            <div class="menu__titre">
-                <svg class="menu__titre--ligneGauche" width="30%" height="30%" viewBox="0 0 400 105.3">
-                    <path
-                        d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
-                </svg>
-
-                <h5>Mouvement final</h5>
-
-                <svg class="menu__titre--ligneDroite" width="30%" height="30%" viewBox="0 0 400 105.3">
-                    <path
-                        d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
-                </svg>
+            <div class="menu__choix">
+                <div class="plats">Langoustine poêlée, purée de patate douce</div>
+                <div class="prix">205€</div>
             </div>
 
-            <div id="desserts" class="menu__corps">
-                <div class="menu__choix">
-                    <div>Maccaron noisette et chocolat, glace au caramel brun et sel de Guérande</div>
-                    <div class="prix"></div>
-                </div>
-
-                <div class="menu__choix">
-                    <div>Baba au rhum revisité avec son coulis de citron</div>
-                    <div class="prix"></div>
-                </div>
-
-                <div class="menu__choix">
-                    <div>Tarte au citron meringuée destructurée</div>
-                    <div class="prix"></div>
-                </div>
+            <div class="menu__choix">
+                <div class="plats">Mijoté de queue de boeuf et riz sauvage au zests de citron</div>
+                <div class="prix">169€</div>
             </div>
 
-            <div class="menu__footer">
-                <i class="fas fa-music"></i>
-                <h4>La note enchantée</h4>
-            </div>
-        </section>
+        </div>
 
-        <footer>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://fr.wikipedia.org/wiki/Mentions_l%C3%A9gales" target="_blank">Mentions
-                            légales</a>
-                    </li>
-                    <li>
-                        <a href="mailto:contact@ohmyfood.com" target="_blank">Contactez-nous</a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
-    </div>
+        <div class="menu__titre">
+            <svg class="menu__titre--ligneGauche" width="30%" height="30%" viewBox="0 0 400 105.3">
+                <path
+                    d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
+            </svg>
+
+            <h5>Mouvement final</h5>
+
+            <svg class="menu__titre--ligneDroite" width="30%" height="30%" viewBox="0 0 400 105.3">
+                <path
+                    d="m294.4 55.4c-0.5-0.4-75-1.5-154-0.3-114.4 1.8-133.6 0.2-133.6-1.2 0-2.8 1.5-7.8 2.9-7.8 0.7 0 2.7-1.2 3.7-2.6 1.6-2.4 6.9 1.4 45.2-1.2 23.1-1.6 118.2 2.9 193.4 1.4 76.2-1.5 125.9 0.2 130.7 1.2 12.3 2.3 8.7 2.8 8.7 5.1 0 2.2-0.8 4-6.3 4.8-9.7 1.4-89.5 1.7-90.6 0.6z" />
+            </svg>
+        </div>
+
+        <div id="desserts" class="menu__corps">
+            <div class="menu__choix">
+                <div>Maccaron noisette et chocolat, glace au caramel brun et sel de Guérande</div>
+                <div class="prix"></div>
+            </div>
+
+            <div class="menu__choix">
+                <div>Baba au rhum revisité avec son coulis de citron</div>
+                <div class="prix"></div>
+            </div>
+
+            <div class="menu__choix">
+                <div>Tarte au citron meringuée destructurée</div>
+                <div class="prix"></div>
+            </div>
+        </div>
+
+        <div class="menu__footer">
+            <i class="fas fa-music"></i>
+            <h4>La note enchantée</h4>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://fr.wikipedia.org/wiki/Mentions_l%C3%A9gales" target="_blank">Mentions
+                        légales</a>
+                </li>
+                <li>
+                    <a href="mailto:contact@ohmyfood.com" target="_blank">Contactez-nous</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
