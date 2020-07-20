@@ -151,13 +151,15 @@ body {
 .container--fullPage .menu .menu__corps .menu__choix {
   display: flex;
   justify-content: space-between;
-  flex: 2;
   margin-bottom: 2vh;
+  align-items: baseline;
 }
-.container--fullPage .menu .menu__corps .menu__choix .menu__prix {
-  flex: 1;
+.container--fullPage .menu .menu__corps .menu__choix .plats {
+  padding-right: 3px;
+}
+.container--fullPage .menu .menu__corps .menu__choix .prix {
   font-weight: bold;
-  font-size: 3vh;
+  font-size: 14px;
 }
 .container--fullPage .menu .menu__footer {
   display: flex;
@@ -168,6 +170,9 @@ body {
   margin-right: 1vh;
   font-size: 25px;
 }
+.container--fullPage .footer--fullpage {
+  font-family: "TruenoMenu", Arial, Helvetica, sans-serif;
+}
 @media (max-width: 600px) {
   .container--fullPage .menu {
     font-size: 10px;
@@ -175,9 +180,9 @@ body {
   .container--fullPage .menu .menu__titre {
     font-size: 15px;
   }
-}
-.container--fullPage .footer--fullpage {
-  font-family: "TruenoMenu", Arial, Helvetica, sans-serif;
+  .container--fullPage .menu .menu__corps .menu__choix .prix {
+    font-size: 12px;
+  }
 }
 
 .footer--fullpage {

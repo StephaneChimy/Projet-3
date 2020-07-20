@@ -84,13 +84,15 @@ body {
       .menu__choix {
         display: flex;
         justify-content: space-between;
-        flex: 2;
         margin-bottom: 2vh;
+        align-items: baseline;
 
-        .menu__prix {
-          flex: 1;
+        .plats{
+          padding-right: 3px;
+        }
+        .prix {
           font-weight: bold;
-          font-size: 3vh;
+          font-size: 14px;
         }
       }
     }
@@ -106,6 +108,9 @@ body {
       }
     }
   }
+  .footer--fullpage {
+    @include fontstyle("TruenoMenu");
+  }
 
   //* Media querie pour mobile */
   //* Change uniquement les tailles des typos dans les menus (titre et corps) */
@@ -116,9 +121,13 @@ body {
       .menu__titre {
         font-size: 15px;
       }
+      .menu__corps {
+        .menu__choix {
+          .prix {
+            font-size: 12px;
+          }
+        }
+      }
     }
-  }
-  .footer--fullpage{
-    @include fontstyle("TruenoMenu");
   }
 }
