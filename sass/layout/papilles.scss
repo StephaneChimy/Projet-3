@@ -20,7 +20,7 @@
       @include fontstyle("DancingMenu");
       font-size: 40px;
 
-      h3 {
+      h2 {
         margin-top: 10vh;
         margin-bottom: 5vh;
         @include textGradient($base-menu3, $variant1-menu3, $variant2-menu3);

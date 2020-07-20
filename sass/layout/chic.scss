@@ -24,7 +24,7 @@
       @include fontstyle("CroissantMenu");
       margin: 10vh 0vh 3vh;
 
-      h3 {
+      h2 {
         @include textGradient($base-menu2, $variant1-menu2, $variant2-menu2);
         font-size: 25px;
       }
@@ -50,7 +50,7 @@
     }
     .menu__titre {
       //* Animation de souligner */
-      &:nth-child(2) h5::after {
+      &:nth-child(2) h4::after {
         content: "";
         display: block;
         width: 0;
@@ -59,7 +59,7 @@
         transition: width 0.3s;
       }
 
-      &:nth-child(4) h5::after {
+      &:nth-child(4) h4::after {
         content: "";
         display: block;
         width: 0;
@@ -68,7 +68,7 @@
         transition: width 0.3s;
       }
 
-      &:nth-child(6) h5::after {
+      &:nth-child(6) h4::after {
         content: "";
         display: block;
         width: 0;
@@ -78,7 +78,7 @@
       }
 
       //* Le background du pseudo élément prend une taille de 100% */
-      & h5:hover::after {
+      & h4:hover::after {
         width: 100%;
       }
     }

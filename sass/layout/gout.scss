@@ -29,7 +29,7 @@
       padding-top: 5vh;
       padding-bottom: 3vh;
 
-      h3 {
+      h2 {
         @include textGradient($base-menu4, $base-menu4, $variant1-menu4);
         font-size: 5.5vh;
         font-weight: inherit;
@@ -38,7 +38,7 @@
 
     .menu__titre {
       //* Animation de souligner */
-      & h5::after {
+      & h4::after {
         content: "";
         display: block;
         width: 0;
@@ -48,7 +48,7 @@
       }
 
       //* Le background du pseudo élément prend une taille de 100% */
-      & h5:hover::after {
+      & h4:hover::after {
         width: 100%;
       }
 

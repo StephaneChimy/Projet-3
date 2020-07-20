@@ -249,7 +249,7 @@ footer a {
   padding-top: 5vh;
   padding-bottom: 3vh;
 }
-.container--fullPage .menu .menu__header h3 {
+.container--fullPage .menu .menu__header h2 {
   background: -webkit-linear-gradient(left bottom, #53a14b, #53a14b, #c1fd88);
   background-clip: text;
   -webkit-background-clip: text;
@@ -259,7 +259,7 @@ footer a {
   font-size: 5.5vh;
   font-weight: inherit;
 }
-.container--fullPage .menu .menu__titre h5::after {
+.container--fullPage .menu .menu__titre h4::after {
   content: "";
   display: block;
   width: 0;
@@ -267,7 +267,7 @@ footer a {
   background: black;
   transition: width 0.3s;
 }
-.container--fullPage .menu .menu__titre h5:hover::after {
+.container--fullPage .menu .menu__titre h4:hover::after {
   width: 100%;
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneGauche,

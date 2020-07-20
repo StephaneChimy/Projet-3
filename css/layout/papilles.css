@@ -242,7 +242,7 @@ footer a {
   font-family: "DancingMenu", Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
-.container--fullPage .menu .menu__header h3 {
+.container--fullPage .menu .menu__header h2 {
   margin-top: 10vh;
   margin-bottom: 5vh;
   background: -webkit-linear-gradient(left bottom, #003ad9, #0071e3, #009eed);

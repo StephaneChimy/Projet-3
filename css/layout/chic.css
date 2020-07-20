@@ -245,7 +245,7 @@ footer a {
   font-family: "CroissantMenu", Arial, Helvetica, sans-serif;
   margin: 10vh 0vh 3vh;
 }
-.container--fullPage .menu .menu__header h3 {
+.container--fullPage .menu .menu__header h2 {
   background: -webkit-linear-gradient(left bottom, #c8721f, #a26a95, #6c56c6);
   background-clip: text;
   -webkit-background-clip: text;
@@ -268,7 +268,7 @@ footer a {
 .container--fullPage .menu .menu__corps:nth-child(7) {
   color: #6c56c6;
 }
-.container--fullPage .menu .menu__titre:nth-child(2) h5::after {
+.container--fullPage .menu .menu__titre:nth-child(2) h4::after {
   content: "";
   display: block;
   width: 0;
@@ -276,7 +276,7 @@ footer a {
   background: #c8721f;
   transition: width 0.3s;
 }
-.container--fullPage .menu .menu__titre:nth-child(4) h5::after {
+.container--fullPage .menu .menu__titre:nth-child(4) h4::after {
   content: "";
   display: block;
   width: 0;
@@ -284,7 +284,7 @@ footer a {
   background: #a26a95;
   transition: width 0.3s;
 }
-.container--fullPage .menu .menu__titre:nth-child(6) h5::after {
+.container--fullPage .menu .menu__titre:nth-child(6) h4::after {
   content: "";
   display: block;
   width: 0;
@@ -292,7 +292,7 @@ footer a {
   background: #6c56c6;
   transition: width 0.3s;
 }
-.container--fullPage .menu .menu__titre h5:hover::after {
+.container--fullPage .menu .menu__titre h4:hover::after {
   width: 100%;
 }
 .container--fullPage .menu .menu__corps {
