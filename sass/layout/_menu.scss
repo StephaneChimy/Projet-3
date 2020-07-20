@@ -118,4 +118,7 @@ body {
       }
     }
   }
+  .footer--fullpage{
+    @include fontstyle("TruenoMenu");
+  }
 }
