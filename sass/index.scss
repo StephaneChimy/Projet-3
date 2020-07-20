@@ -38,11 +38,9 @@ body {
   margin-right: 3vw;
   //* Ombres sous les menus */
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-  //* Due au fait que les menus soient des liens (changment de couleur) */
+  //* Due au fait que les menus soient des liens (changement de couleur) */
   text-decoration: none;
   color: inherit;
-  //* Zoom */
-  transition: (0.4s);
   overflow: hidden;
   //* Pour ne pas dépasser du cadre */
 
@@ -125,6 +123,7 @@ body {
       @include backgroundMenu($background-color-menu-3);
 
       h3 {
+        font-weight: inherit;
         @include fontstyle("Dancing");
         @include textGradient($base-menu3, $variant1-menu3, $variant2-menu3);
         margin: 0;

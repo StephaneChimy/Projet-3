@@ -248,7 +248,6 @@ body {
 }
 .container--fullPage .menu .menu__header i {
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   padding: 5px;
@@ -259,7 +258,6 @@ body {
 }
 .container--fullPage .menu .menu__footer i {
   background: -webkit-linear-gradient(left bottom, #f25661, #f25661, #f88e6a);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   padding: 5px;

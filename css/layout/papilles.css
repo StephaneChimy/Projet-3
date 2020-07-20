@@ -254,7 +254,6 @@ body {
   margin-top: 10vh;
   margin-bottom: 5vh;
   background: -webkit-linear-gradient(left bottom, #003ad9, #0071e3, #009eed);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   padding: 5px;
