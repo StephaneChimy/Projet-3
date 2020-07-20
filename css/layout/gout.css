@@ -254,7 +254,7 @@ footer a {
   color: transparent;
   padding: 5px;
   filter: brightness(1.2);
-  font-size: 55px;
+  font-size: 5.5vh;
   font-weight: inherit;
 }
 .container--fullPage .menu .menu__titre h5::after {
