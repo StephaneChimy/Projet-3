@@ -1,15 +1,10 @@
 //** Structure de base des menus **/
 
-body {
-  background-color: #ececec;
-}
-
 .container--fullPage {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  background-color: white;
 
   .nomRestaurant {
     font-size: 12px;
