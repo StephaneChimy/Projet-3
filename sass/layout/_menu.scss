@@ -1,5 +1,10 @@
 //** Structure de base des menus **/
 
+//* Imports*//
+@import "./header";
+@import "./menu";
+@import "./footer";
+
 .container--fullPage {
   display: flex;
   flex-direction: column;
@@ -78,7 +83,7 @@
         margin-bottom: 2vh;
         align-items: baseline;
 
-        .plats{
+        .plats {
           padding-right: 3px;
         }
         .prix {
