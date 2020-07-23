@@ -181,13 +181,15 @@
 .container--fullPage .menu .menu__titre h4::after {
   content: "";
   display: block;
-  width: 0;
+  width: 100%;
   height: 2px;
   background: black;
-  transition: width 0.3s;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
 }
 .container--fullPage .menu .menu__titre h4:hover::after {
-  width: 100%;
+  transform: scaleX(1);
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {
   transform: scaleX(-1);
