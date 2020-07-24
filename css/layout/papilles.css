@@ -178,7 +178,7 @@
   text-align: center;
   font-size: 18px;
 }
-.container--fullPage .menu .menu__titre h4::after {
+.container--fullPage .menu .menu__titre h3::after {
   content: "";
   display: block;
   width: 100%;
@@ -188,7 +188,7 @@
   transform-origin: left;
   transition: transform 0.3s;
 }
-.container--fullPage .menu .menu__titre h4:hover::after {
+.container--fullPage .menu .menu__titre h3:hover::after {
   transform: scaleX(1);
 }
 .container--fullPage .menu .menu__titre .menu__titre--ligneDroite {

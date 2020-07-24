@@ -51,7 +51,7 @@
       font-size: 18px;
 
       //* Animation de souligner */
-      & h4::after {
+      & h3::after {
         content: "";
         display: block;
         width: 100%;
@@ -63,7 +63,7 @@
       }
 
       //* Taille du pseudo élément passe de 0 à 100% */
-      & h4:hover::after {
+      & h3:hover::after {
         transform: scaleX(1);
       }
 

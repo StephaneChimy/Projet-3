@@ -45,7 +45,7 @@
     }
     .menu__titre {
       //* Animation de souligner */
-      &:nth-child(2) h4::after {
+      &:nth-child(2) h3::after {
         content: "";
         display: block;
         width: 0;
@@ -54,7 +54,7 @@
         transition: width 0.3s;
       }
 
-      &:nth-child(4) h4::after {
+      &:nth-child(4) h3::after {
         content: "";
         display: block;
         width: 0;
@@ -63,7 +63,7 @@
         transition: width 0.3s;
       }
 
-      &:nth-child(6) h4::after {
+      &:nth-child(6) h3::after {
         content: "";
         display: block;
         width: 0;
@@ -73,7 +73,7 @@
       }
 
       //* Le background du pseudo élément prend une taille de 100% */
-      & h4:hover::after {
+      & h3:hover::after {
         width: 100%;
       }
     }

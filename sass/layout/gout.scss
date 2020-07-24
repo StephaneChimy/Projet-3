@@ -34,7 +34,7 @@
 
     .menu__titre {
       //* Animation de souligner */
-      & h4::after {
+      & h3::after {
         content: "";
         display: block;
         width: 0;
@@ -44,7 +44,7 @@
       }
 
       //* Le background du pseudo élément prend une taille de 100% */
-      & h4:hover::after {
+      & h3:hover::after {
         width: 100%;
       }
 
