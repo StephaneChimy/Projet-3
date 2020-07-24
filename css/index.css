@@ -223,7 +223,7 @@ button i {
   opacity: 0.5;
   background: rgba(255, 255, 255, 0.3);
 }
-.menu h3 {
+.menu h2 {
   margin: 0;
   font-size: 25px;
 }
@@ -242,7 +242,7 @@ button i {
   padding: 5px;
   filter: brightness(1.2);
 }
-.firstLine .menu:nth-child(1) h3 {
+.firstLine .menu:nth-child(1) h2 {
   font-family: "Devonshire", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 0.9em;
@@ -257,7 +257,7 @@ button i {
 .firstLine .menu:nth-child(2) {
   background-color: #fff5fe;
 }
-.firstLine .menu:nth-child(2) h3 {
+.firstLine .menu:nth-child(2) h2 {
   font-family: "Croissant", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #c8721f, #a26a95, #6c56c6);
   -webkit-background-clip: text;
@@ -277,7 +277,7 @@ button i {
 .secondLine .menu:nth-child(1) {
   background-color: #f9f9f9;
 }
-.secondLine .menu:nth-child(1) h3 {
+.secondLine .menu:nth-child(1) h2 {
   font-weight: inherit;
   font-family: "Dancing", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #003ad9, #0071e3, #009eed);
@@ -297,7 +297,7 @@ button i {
 .secondLine .menu:nth-child(2) {
   background-color: #fdfffd;
 }
-.secondLine .menu:nth-child(2) h3 {
+.secondLine .menu:nth-child(2) h2 {
   font-family: "Kaushan", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(left bottom, #53a14b, #53a14b, #c1fd88);
   -webkit-background-clip: text;

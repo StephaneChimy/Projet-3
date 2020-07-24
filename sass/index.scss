@@ -53,7 +53,7 @@
     background: rgba($color: white, $alpha: 0.3);
   }
 
-  h3 {
+  h2 {
     margin: 0;
     font-size: 25px;
   }
@@ -73,7 +73,7 @@
         @include textGradient($base-menu1, $base-menu1, $variant1-menu1);
       }
 
-      h3 {
+      h2 {
         @include fontstyle("Devonshire");
         font-weight: lighter;
         font-size: 0.9em;
@@ -91,7 +91,7 @@
     &:nth-child(2) {
       @include backgroundMenu($background-color-menu-2);
 
-      h3 {
+      h2 {
         @include fontstyle("Croissant");
         @include textGradient($base-menu2, $variant1-menu2, $variant2-menu2);
         font-size: 0.7em;
@@ -113,7 +113,7 @@
     &:nth-child(1) {
       @include backgroundMenu($background-color-menu-3);
 
-      h3 {
+      h2 {
         font-weight: inherit;
         @include fontstyle("Dancing");
         @include textGradient($base-menu3, $variant1-menu3, $variant2-menu3);
@@ -132,7 +132,7 @@
     &:nth-child(2) {
       @include backgroundMenu($background-color-menu-4);
 
-      h3 {
+      h2 {
         @include fontstyle("Kaushan");
         @include textGradient($base-menu4, $base-menu4, $variant1-menu4);
         margin: 0;
