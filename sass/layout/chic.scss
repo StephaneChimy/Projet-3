@@ -44,37 +44,17 @@
       color: $variant2-menu2;
     }
     .menu__titre {
-      //* Animation de souligner */
+      //* Couleur souligner */
       &:nth-child(2) h3::after {
-        content: "";
-        display: block;
-        width: 0;
-        height: 2px;
         background: $base-menu2;
-        transition: width 0.3s;
       }
 
       &:nth-child(4) h3::after {
-        content: "";
-        display: block;
-        width: 0;
-        height: 2px;
         background: $variant1-menu2;
-        transition: width 0.3s;
       }
 
       &:nth-child(6) h3::after {
-        content: "";
-        display: block;
-        width: 0;
-        height: 2px;
         background: $variant2-menu2;
-        transition: width 0.3s;
-      }
-
-      //* Le background du pseudo élément prend une taille de 100% */
-      & h3:hover::after {
-        width: 100%;
       }
     }
 

@@ -176,7 +176,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 .container--fullPage .menu .menu__titre h3::after {
   content: "";
@@ -230,7 +230,7 @@
     font-size: 10px;
   }
   .container--fullPage .menu .menu__titre {
-    font-size: 15px;
+    font-size: 13px;
   }
   .container--fullPage .menu .menu__corps .menu__choix .prix {
     font-size: 12px;
@@ -273,31 +273,13 @@
   color: #6c56c6;
 }
 .container--fullPage .menu .menu__titre:nth-child(2) h3::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
   background: #c8721f;
-  transition: width 0.3s;
 }
 .container--fullPage .menu .menu__titre:nth-child(4) h3::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
   background: #a26a95;
-  transition: width 0.3s;
 }
 .container--fullPage .menu .menu__titre:nth-child(6) h3::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
   background: #6c56c6;
-  transition: width 0.3s;
-}
-.container--fullPage .menu .menu__titre h3:hover::after {
-  width: 100%;
 }
 .container--fullPage .menu .menu__corps {
   width: 80%;

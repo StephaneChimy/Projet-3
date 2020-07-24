@@ -176,7 +176,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 .container--fullPage .menu .menu__titre h3::after {
   content: "";
@@ -230,7 +230,7 @@
     font-size: 10px;
   }
   .container--fullPage .menu .menu__titre {
-    font-size: 15px;
+    font-size: 13px;
   }
   .container--fullPage .menu .menu__corps .menu__choix .prix {
     font-size: 12px;
