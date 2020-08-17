@@ -50,6 +50,7 @@
   .zoom:hover {
     transform: scale(1.2);
     opacity: 0.5;
+    background: rgba($color: white, $alpha: 0.3);
   }
 
   h2 {
