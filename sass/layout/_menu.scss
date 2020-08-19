@@ -76,6 +76,7 @@
     .menu__corps {
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
       margin-bottom: 3vh;
 
       .menu__choix {

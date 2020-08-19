@@ -198,6 +198,7 @@
 .container--fullPage .menu .menu__corps {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin-bottom: 3vh;
 }
 .container--fullPage .menu .menu__corps .menu__choix {
