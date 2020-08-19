@@ -193,6 +193,8 @@ button i {
 .firstLine,
 .secondLine {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu {
