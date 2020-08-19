@@ -234,6 +234,10 @@
   .container--fullPage .menu .menu__titre {
     font-size: 14px;
   }
+  .container--fullPage .menu .menu__corps .menu__choix {
+    flex-direction: column;
+    align-items: center;
+  }
   .container--fullPage .menu .menu__corps .menu__choix .prix {
     font-size: 13px;
   }
