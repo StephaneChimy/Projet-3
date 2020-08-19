@@ -198,7 +198,6 @@
 .container--fullPage .menu .menu__corps {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   margin-bottom: 3vh;
 }
 .container--fullPage .menu .menu__corps .menu__choix {
@@ -206,6 +205,7 @@
   justify-content: space-between;
   margin-bottom: 2vh;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 .container--fullPage .menu .menu__corps .menu__choix .plats {
   padding-right: 3px;

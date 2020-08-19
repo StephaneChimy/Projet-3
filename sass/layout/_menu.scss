@@ -76,7 +76,6 @@
     .menu__corps {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
       margin-bottom: 3vh;
 
       .menu__choix {
@@ -84,6 +83,7 @@
         justify-content: space-between;
         margin-bottom: 2vh;
         align-items: baseline;
+        flex-wrap: wrap;
 
         .plats {
           padding-right: 3px;
