@@ -13,6 +13,7 @@
   width: 100%;
   background-color: $header-background-color;
   @include fontstyle("Trueno");
+  @include fontstyle("TruenoMenu");
 
   img {
     height: 7vh;
